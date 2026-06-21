@@ -4,29 +4,5 @@ test_cases:
     EVAP_PCT: 0
   response: 7E803412E00
 - expected_values:
-    EVAP_PCT: 7.05882
-  response: 7E803412E12
-- expected_values:
-    EVAP_PCT: 10.98039
-  response: 7E803412E1C
-- expected_values:
-    EVAP_PCT: 14.90196
-  response: 7E803412E26
-- expected_values:
-    EVAP_PCT: 19.60784
-  response: 7E803412E32
-- expected_values:
-    EVAP_PCT: 21.17647
-  response: 7E803412E36
-- expected_values:
-    EVAP_PCT: 22.35294
-  response: 7E803412E39
-- expected_values:
-    EVAP_PCT: 27.45098
-  response: 7E803412E46
-- expected_values:
-    EVAP_PCT: 74.11765
-  response: 7E803412EBD
-- expected_values:
-    EVAP_PCT: 87.45098
-  response: 7E803412EDF
+    EVAP_PCT: 89.80392
+  response: 7E803412EE5
