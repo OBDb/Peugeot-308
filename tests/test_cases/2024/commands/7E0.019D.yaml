@@ -1,0 +1,6 @@
+command_id: 7E0.019D
+test_cases:
+- expected_values:
+    FUEL_RATE_ALT: 1.12
+    VFUEL_RATE: 1.12
+  response: 7E806419D00380038
