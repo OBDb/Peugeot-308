@@ -20,6 +20,3 @@ supported_commands_by_ecu:
   - 0121:MIL_DIST
   - 0123:FRP
   - 0147:TP_B
-unsupported_commands_by_ecu:
-  "742":
-  - 742.22A022|fc=1:PEUGEOT_TP_FL_V3,PEUGEOT_TP_FR_V3,PEUGEOT_TP_RL_V3,PEUGEOT_TP_RR_V3,PEUGEOT_TP_SPARE
