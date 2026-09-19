@@ -10,5 +10,5 @@ test_cases:
     CLR_DIST: 14336
   response: '7E80441313800'
 - expected_values:
-    CLR_DIST: 18691
-  response: '7E80441314903'
+    CLR_DIST: 18944
+  response: 7E80441314A00
