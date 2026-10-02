@@ -1,0 +1,11 @@
+command_id: 6A9.689.22D653|fc=1
+test_cases:
+- expected_values:
+    308_AUTOMATIC_TRANS_OUTPUT_SHFT_MODE: 24640
+  response: 6890562D6530200
+- expected_values:
+    308_AUTOMATIC_TRANS_OUTPUT_SHFT_MODE: 122816
+  response: 6890562D65307FE
+- expected_values:
+    308_AUTOMATIC_TRANS_OUTPUT_SHFT_MODE: 128704
+  response: 6890562D653085A

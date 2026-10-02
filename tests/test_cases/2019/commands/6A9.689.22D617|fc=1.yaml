@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D617|fc=1
+test_cases:
+- expected_values:
+    308_ADDITIONAL_OIL_PMP: 0
+  response: 6890462D61700

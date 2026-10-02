@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D619|fc=1
+test_cases:
+- expected_values:
+    308_SC5_SHIFT_SOLENOID_MEAS: 0
+  response: 6890462D61900

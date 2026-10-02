@@ -1,0 +1,29 @@
+command_id: 6A8.688.22D491|fc=1
+test_cases:
+- expected_values:
+    308_ACCEL_PEDAL_POS_1: 0
+  response: 6880562D4910000
+- expected_values:
+    308_ACCEL_PEDAL_POS_1: 0.13428
+  response: 6880562D491000B
+- expected_values:
+    308_ACCEL_PEDAL_POS_1: 1.07422
+  response: 6880562D4910058
+- expected_values:
+    308_ACCEL_PEDAL_POS_1: 1.70898
+  response: 6880562D491008C
+- expected_values:
+    308_ACCEL_PEDAL_POS_1: 1.95312
+  response: 6880562D49100A0
+- expected_values:
+    308_ACCEL_PEDAL_POS_1: 2.23389
+  response: 6880562D49100B7
+- expected_values:
+    308_ACCEL_PEDAL_POS_1: 2.56348
+  response: 6880562D49100D2
+- expected_values:
+    308_ACCEL_PEDAL_POS_1: 2.62451
+  response: 6880562D49100D7
+- expected_values:
+    308_ACCEL_PEDAL_POS_1: 5.81055
+  response: 6880562D49101DC

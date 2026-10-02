@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D750|fc=1
+test_cases:
+- expected_values:
+    308_NUM_ADDITIONAL_OIL: 9805
+  response: 6890762D7500000264D

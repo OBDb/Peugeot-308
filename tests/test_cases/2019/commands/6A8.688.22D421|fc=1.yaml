@@ -1,0 +1,11 @@
+command_id: 6A8.688.22D421|fc=1
+test_cases:
+- expected_values:
+    308_AC_P: 10.231
+  response: 6880562D42127F7
+- expected_values:
+    308_AC_P: 10.242
+  response: 6880562D4212802
+- expected_values:
+    308_AC_P: 13.176
+  response: 6880562D4213378

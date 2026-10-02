@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D755|fc=1
+test_cases:
+- expected_values:
+    308_NUM_SHIFT_SOLENOID_OPERATED_SC5: 13980
+  response: 6890762D7550000369C

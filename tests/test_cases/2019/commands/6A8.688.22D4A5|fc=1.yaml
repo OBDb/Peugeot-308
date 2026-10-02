@@ -1,0 +1,17 @@
+command_id: 6A8.688.22D4A5|fc=1
+test_cases:
+- expected_values:
+    308_ALTERNATOR_LOAD: 13
+  response: 6880462D4A50D
+- expected_values:
+    308_ALTERNATOR_LOAD: 16
+  response: 6880462D4A510
+- expected_values:
+    308_ALTERNATOR_LOAD: 19
+  response: 6880462D4A513
+- expected_values:
+    308_ALTERNATOR_LOAD: 23
+  response: 6880462D4A517
+- expected_values:
+    308_ALTERNATOR_LOAD: 26
+  response: 6880462D4A51A

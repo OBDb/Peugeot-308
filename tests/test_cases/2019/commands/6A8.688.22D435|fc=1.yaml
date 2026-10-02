@@ -1,0 +1,32 @@
+command_id: 6A8.688.22D435|fc=1
+test_cases:
+- expected_values:
+    308_COMPUTER_T: 24
+  response: 6880562D4350018
+- expected_values:
+    308_COMPUTER_T: 25
+  response: 6880562D4350019
+- expected_values:
+    308_COMPUTER_T: 26
+  response: 6880562D435001A
+- expected_values:
+    308_COMPUTER_T: 27
+  response: 6880562D435001B
+- expected_values:
+    308_COMPUTER_T: 28
+  response: 6880562D435001C
+- expected_values:
+    308_COMPUTER_T: 29
+  response: 6880562D435001D
+- expected_values:
+    308_COMPUTER_T: 30
+  response: 6880562D435001E
+- expected_values:
+    308_COMPUTER_T: 31
+  response: 6880562D435001F
+- expected_values:
+    308_COMPUTER_T: 32
+  response: 6880562D4350020
+- expected_values:
+    308_COMPUTER_T: 33
+  response: 6880562D4350021

@@ -1,0 +1,26 @@
+command_id: 6A8.688.22D4EC|fc=1
+test_cases:
+- expected_values:
+    308_APPROXIMATE_POS: 4.82812
+  response: 6880562D4EC026A
+- expected_values:
+    308_APPROXIMATE_POS: 4.92969
+  response: 6880562D4EC0277
+- expected_values:
+    308_APPROXIMATE_POS: 4.99219
+  response: 6880562D4EC027F
+- expected_values:
+    308_APPROXIMATE_POS: 5.02344
+  response: 6880562D4EC0283
+- expected_values:
+    308_APPROXIMATE_POS: 5.09375
+  response: 6880562D4EC028C
+- expected_values:
+    308_APPROXIMATE_POS: 5.125
+  response: 6880562D4EC0290
+- expected_values:
+    308_APPROXIMATE_POS: 73.82031
+  response: 6880562D4EC24E9
+- expected_values:
+    308_APPROXIMATE_POS: 74.08594
+  response: 6880562D4EC250B

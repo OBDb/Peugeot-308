@@ -1,0 +1,29 @@
+command_id: 6A9.689.22D742|fc=1
+test_cases:
+- expected_values:
+    308_NUM_ACTIVATIONS_C1: 79699
+  response: 6890762D74200013753
+- expected_values:
+    308_NUM_ACTIVATIONS_C1: 79700
+  response: 6890762D74200013754
+- expected_values:
+    308_NUM_ACTIVATIONS_C1: 79718
+  response: 6890762D74200013766
+- expected_values:
+    308_NUM_ACTIVATIONS_C1: 79736
+  response: 6890762D74200013778
+- expected_values:
+    308_NUM_ACTIVATIONS_C1: 79752
+  response: 6890762D74200013788
+- expected_values:
+    308_NUM_ACTIVATIONS_C1: 79753
+  response: 6890762D74200013789
+- expected_values:
+    308_NUM_ACTIVATIONS_C1: 79754
+  response: 6890762D7420001378A
+- expected_values:
+    308_NUM_ACTIVATIONS_C1: 79755
+  response: 6890762D7420001378B
+- expected_values:
+    308_NUM_ACTIVATIONS_C1: 79756
+  response: 6890762D7420001378C

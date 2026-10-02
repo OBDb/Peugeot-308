@@ -1,0 +1,29 @@
+command_id: 6A9.689.22D802|fc=1
+test_cases:
+- expected_values:
+    308_ODO_6A9: 94530
+  response: 6890662D802017142
+- expected_values:
+    308_ODO_6A9: 94531
+  response: 6890662D802017143
+- expected_values:
+    308_ODO_6A9: 94532
+  response: 6890662D802017144
+- expected_values:
+    308_ODO_6A9: 94533
+  response: 6890662D802017145
+- expected_values:
+    308_ODO_6A9: 94534
+  response: 6890662D802017146
+- expected_values:
+    308_ODO_6A9: 94535
+  response: 6890662D802017147
+- expected_values:
+    308_ODO_6A9: 94536
+  response: 6890662D802017148
+- expected_values:
+    308_ODO_6A9: 94537
+  response: 6890662D802017149
+- expected_values:
+    308_ODO_6A9: 94538
+  response: 6890662D80201714A

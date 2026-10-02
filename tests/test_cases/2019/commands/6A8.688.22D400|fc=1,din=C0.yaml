@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D400|fc=1,din=C0
+test_cases:
+- expected_values:
+    308_RPM: 1336
+  response: 6880562D4000538
+- expected_values:
+    308_RPM: 1553
+  response: 6880562D4000611
+- expected_values:
+    308_RPM: 2201
+  response: 6880562D4000899
+- expected_values:
+    308_RPM: 2283
+  response: 6880562D40008EB
