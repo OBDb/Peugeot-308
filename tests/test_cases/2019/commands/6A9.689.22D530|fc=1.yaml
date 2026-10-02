@@ -1,0 +1,14 @@
+command_id: 6A9.689.22D530|fc=1
+test_cases:
+- expected_values:
+    308_AVG_FRONT_WHL_SPD: 136.48
+  response: 6890562D5300D54
+- expected_values:
+    308_AVG_FRONT_WHL_SPD: 349.11999
+  response: 6890562D5302218
+- expected_values:
+    308_AVG_FRONT_WHL_SPD: 460.35999
+  response: 6890562D5302CF5
+- expected_values:
+    308_AVG_FRONT_WHL_SPD: 793.35998
+  response: 6890562D5304D7A

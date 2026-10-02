@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D402|fc=1
+test_cases:
+- expected_values:
+    308_VSS_6A8: 1.53906
+  response: 6880562D40200C5
+- expected_values:
+    308_VSS_6A8: 12
+  response: 6880562D4020600
+- expected_values:
+    308_VSS_6A8: 79.875
+  response: 6880562D40227F0
+- expected_values:
+    308_VSS_6A8: 84.76562
+  response: 6880562D4022A62

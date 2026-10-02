@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D462|fc=1
+test_cases:
+- expected_values:
+    308_CRANK_SPD: 431
+  response: 6880562D462035E
+- expected_values:
+    308_CRANK_SPD: 893
+  response: 6880562D46206FA
+- expected_values:
+    308_CRANK_SPD: 1026.5
+  response: 6880562D4620805
+- expected_values:
+    308_CRANK_SPD: 1293
+  response: 6880562D4620A1A

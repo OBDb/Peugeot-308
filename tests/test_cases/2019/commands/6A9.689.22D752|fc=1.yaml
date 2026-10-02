@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D752|fc=1
+test_cases:
+- expected_values:
+    308_NUM_SHIFT_SOLENOID: 44735
+  response: 6890762D7520000AEBF

@@ -1,0 +1,23 @@
+command_id: 6A9.689.22D749|fc=1
+test_cases:
+- expected_values:
+    308_NUM_GEAR_ENGAGEMENTS_3: 121467
+  response: 6890762D7490001DA7B
+- expected_values:
+    308_NUM_GEAR_ENGAGEMENTS_3: 121468
+  response: 6890762D7490001DA7C
+- expected_values:
+    308_NUM_GEAR_ENGAGEMENTS_3: 121469
+  response: 6890762D7490001DA7D
+- expected_values:
+    308_NUM_GEAR_ENGAGEMENTS_3: 121470
+  response: 6890762D7490001DA7E
+- expected_values:
+    308_NUM_GEAR_ENGAGEMENTS_3: 121472
+  response: 6890762D7490001DA80
+- expected_values:
+    308_NUM_GEAR_ENGAGEMENTS_3: 121473
+  response: 6890762D7490001DA81
+- expected_values:
+    308_NUM_GEAR_ENGAGEMENTS_3: 121474
+  response: 6890762D7490001DA82

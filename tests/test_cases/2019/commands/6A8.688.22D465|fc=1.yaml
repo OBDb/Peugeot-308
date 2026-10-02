@@ -1,0 +1,32 @@
+command_id: 6A8.688.22D465|fc=1
+test_cases:
+- expected_values:
+    308_ATMOSPHERIC_P: 12696
+  response: 6880562D4653198
+- expected_values:
+    308_ATMOSPHERIC_P: 12700
+  response: 6880562D465319C
+- expected_values:
+    308_ATMOSPHERIC_P: 12753
+  response: 6880562D46531D1
+- expected_values:
+    308_ATMOSPHERIC_P: 12757
+  response: 6880562D46531D5
+- expected_values:
+    308_ATMOSPHERIC_P: 12765
+  response: 6880562D46531DD
+- expected_values:
+    308_ATMOSPHERIC_P: 12799
+  response: 6880562D46531FF
+- expected_values:
+    308_ATMOSPHERIC_P: 12822
+  response: 6880562D4653216
+- expected_values:
+    308_ATMOSPHERIC_P: 12826
+  response: 6880562D465321A
+- expected_values:
+    308_ATMOSPHERIC_P: 12829
+  response: 6880562D465321D
+- expected_values:
+    308_ATMOSPHERIC_P: 12849
+  response: 6880562D4653231

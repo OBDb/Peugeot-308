@@ -1,0 +1,11 @@
+command_id: 6A8.688.22D766|fc=1
+test_cases:
+- expected_values:
+    308_SET_V_STORAGE_BAT: 14.1875
+  response: 6880562D7660718
+- expected_values:
+    308_SET_V_STORAGE_BAT: 14.25
+  response: 6880562D7660720
+- expected_values:
+    308_SET_V_STORAGE_BAT: 14.3125
+  response: 6880562D7660728

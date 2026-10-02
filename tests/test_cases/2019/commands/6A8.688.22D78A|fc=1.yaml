@@ -1,0 +1,23 @@
+command_id: 6A8.688.22D78A|fc=1
+test_cases:
+- expected_values:
+    308_SERVICE_BAT_V: 13.875
+  response: 6880562D78A06F0
+- expected_values:
+    308_SERVICE_BAT_V: 13.88281
+  response: 6880562D78A06F1
+- expected_values:
+    308_SERVICE_BAT_V: 13.89844
+  response: 6880562D78A06F3
+- expected_values:
+    308_SERVICE_BAT_V: 13.90625
+  response: 6880562D78A06F4
+- expected_values:
+    308_SERVICE_BAT_V: 13.91406
+  response: 6880562D78A06F5
+- expected_values:
+    308_SERVICE_BAT_V: 13.98438
+  response: 6880562D78A06FE
+- expected_values:
+    308_SERVICE_BAT_V: 14.08594
+  response: 6880562D78A070B

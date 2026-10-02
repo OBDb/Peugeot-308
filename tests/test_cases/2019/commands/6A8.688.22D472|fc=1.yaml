@@ -1,0 +1,17 @@
+command_id: 6A8.688.22D472|fc=1
+test_cases:
+- expected_values:
+    308_LOW_P_FUEL_PMP: 243.22999
+  response: 6880562D4725F03
+- expected_values:
+    308_LOW_P_FUEL_PMP: 269.46999
+  response: 6880562D4726943
+- expected_values:
+    308_LOW_P_FUEL_PMP: 273.66999
+  response: 6880562D4726AE7
+- expected_values:
+    308_LOW_P_FUEL_PMP: 283.10999
+  response: 6880562D4726E97
+- expected_values:
+    308_LOW_P_FUEL_PMP: 284.15999
+  response: 6880562D4726F00

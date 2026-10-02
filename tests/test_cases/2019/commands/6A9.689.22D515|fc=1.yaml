@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D515|fc=1
+test_cases:
+- expected_values:
+    308_COMPUTER_WAKE_UP_ST: 1
+  response: 6890462D51501
+- expected_values:
+    308_COMPUTER_WAKE_UP_ST: 4
+  response: 6890462D51504
