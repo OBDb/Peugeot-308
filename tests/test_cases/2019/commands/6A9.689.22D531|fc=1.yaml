@@ -1,0 +1,14 @@
+command_id: 6A9.689.22D531|fc=1
+test_cases:
+- expected_values:
+    308_RL_WHL_SPD: 20.06
+  response: 6890562D53107D6
+- expected_values:
+    308_RL_WHL_SPD: 22.69
+  response: 6890562D53108DD
+- expected_values:
+    308_RL_WHL_SPD: 23.25
+  response: 6890562D5310915
+- expected_values:
+    308_RL_WHL_SPD: 87.34
+  response: 6890562D531221E

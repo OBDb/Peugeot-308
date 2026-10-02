@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D507|fc=1
+test_cases:
+- expected_values:
+    308_DRIVER_REQ_TQ: -18
+  response: 6890462D50729
+- expected_values:
+    308_DRIVER_REQ_TQ: 160
+  response: 6890462D50782

@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D616|fc=1
+test_cases:
+- expected_values:
+    308_ACTIVATION: 0
+  response: 6890462D61600

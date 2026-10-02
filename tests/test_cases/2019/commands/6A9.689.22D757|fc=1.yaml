@@ -1,0 +1,20 @@
+command_id: 6A9.689.22D757|fc=1
+test_cases:
+- expected_values:
+    308_NUM_SHIFT_SOLENOID_P: 108505
+  response: 6890762D7570001A7D9
+- expected_values:
+    308_NUM_SHIFT_SOLENOID_P: 108506
+  response: 6890762D7570001A7DA
+- expected_values:
+    308_NUM_SHIFT_SOLENOID_P: 108508
+  response: 6890762D7570001A7DC
+- expected_values:
+    308_NUM_SHIFT_SOLENOID_P: 108509
+  response: 6890762D7570001A7DD
+- expected_values:
+    308_NUM_SHIFT_SOLENOID_P: 108510
+  response: 6890762D7570001A7DE
+- expected_values:
+    308_NUM_SHIFT_SOLENOID_P: 108511
+  response: 6890762D7570001A7DF

@@ -1,0 +1,14 @@
+command_id: 6A9.689.22D70E|fc=1
+test_cases:
+- expected_values:
+    308_BRAKE_CIRCUIT_P: 0
+  response: 6890562D70E0226
+- expected_values:
+    308_BRAKE_CIRCUIT_P: 11.5
+  response: 6890562D70E0299
+- expected_values:
+    308_BRAKE_CIRCUIT_P: 11.7
+  response: 6890562D70E029B
+- expected_values:
+    308_BRAKE_CIRCUIT_P: 13.8
+  response: 6890562D70E02B0

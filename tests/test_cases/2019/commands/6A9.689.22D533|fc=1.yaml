@@ -1,0 +1,11 @@
+command_id: 6A9.689.22D533|fc=1
+test_cases:
+- expected_values:
+    308_AVG_SPD_FRONT_WHEELS: 0
+  response: 6890562D5330000
+- expected_values:
+    308_AVG_SPD_FRONT_WHEELS: 43.04
+  response: 6890562D53310D0
+- expected_values:
+    308_AVG_SPD_FRONT_WHEELS: 88.95
+  response: 6890562D53322BF

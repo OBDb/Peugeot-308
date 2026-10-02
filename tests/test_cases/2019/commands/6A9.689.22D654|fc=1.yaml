@@ -1,0 +1,17 @@
+command_id: 6A9.689.22D654|fc=1
+test_cases:
+- expected_values:
+    308_TQ_CONV_SLIP_SPD: -128
+  response: 6890462D6547D
+- expected_values:
+    308_TQ_CONV_SLIP_SPD: -64
+  response: 6890462D6547E
+- expected_values:
+    308_TQ_CONV_SLIP_SPD: 0
+  response: 6890462D6547F
+- expected_values:
+    308_TQ_CONV_SLIP_SPD: 128
+  response: 6890462D65481
+- expected_values:
+    308_TQ_CONV_SLIP_SPD: 1152
+  response: 6890462D65491

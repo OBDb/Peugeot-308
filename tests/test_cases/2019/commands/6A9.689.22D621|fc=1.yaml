@@ -1,0 +1,23 @@
+command_id: 6A9.689.22D621|fc=1
+test_cases:
+- expected_values:
+    308_MEAS_CURRENT_P_C4: 80
+  response: 6890462D62108
+- expected_values:
+    308_MEAS_CURRENT_P_C4: 100
+  response: 6890462D6210A
+- expected_values:
+    308_MEAS_CURRENT_P_C4: 410
+  response: 6890462D62129
+- expected_values:
+    308_MEAS_CURRENT_P_C4: 420
+  response: 6890462D6212A
+- expected_values:
+    308_MEAS_CURRENT_P_C4: 440
+  response: 6890462D6212C
+- expected_values:
+    308_MEAS_CURRENT_P_C4: 470
+  response: 6890462D6212F
+- expected_values:
+    308_MEAS_CURRENT_P_C4: 490
+  response: 6890462D62131

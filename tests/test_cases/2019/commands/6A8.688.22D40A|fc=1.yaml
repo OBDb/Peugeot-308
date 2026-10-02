@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D40A|fc=1
+test_cases:
+- expected_values:
+    308_ECT_CORRECTED: 52
+  response: 6880562D40A0034
+- expected_values:
+    308_ECT_CORRECTED: 102
+  response: 6880562D40A0066

@@ -1,0 +1,11 @@
+command_id: 6A8.688.22D497|fc=1
+test_cases:
+- expected_values:
+    308_BAT_CURRENT: 1.37988
+  response: 6880762D49700000585
+- expected_values:
+    308_BAT_CURRENT: 1.7002
+  response: 6880762D497000006CD
+- expected_values:
+    308_BAT_CURRENT: 1.76953
+  response: 6880762D49700000714

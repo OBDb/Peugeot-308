@@ -1,0 +1,7 @@
+command_id: 6A8.688.22DADC|fc=1
+test_cases:
+- expected_values:
+    308_ENG_CTRL_MODULE_STAT: 0
+    308_IMMOBILIZER_CODE: 4
+    308_PROBLEMS_DETECTED: 0
+  response: 6880762DADC00040001

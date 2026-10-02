@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D554|fc=1
+test_cases:
+- expected_values:
+    308_REAL_ENG_TQ: -20
+  response: 6890462D55428
+- expected_values:
+    308_REAL_ENG_TQ: 158
+  response: 6890462D55481

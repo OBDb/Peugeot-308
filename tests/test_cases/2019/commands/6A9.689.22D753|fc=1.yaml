@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D753|fc=1
+test_cases:
+- expected_values:
+    308_NUM_SHIFT_SOLENOID_ACTIVATIONS_SC3: 15775
+  response: 6890762D75300003D9F
