@@ -47,6 +47,8 @@ supported_commands_by_ecu:
   - 011F:RUNTM
   - 0121:MIL_DIST
   - 0123:FRP
+  - 012C:EGR_PCT
+  - 012D:EGR_ERR
   - 012E:EVAP_PCT
   - 0130:WARM_UPS
   - 0131:CLR_DIST
@@ -55,9 +57,17 @@ supported_commands_by_ecu:
   - 013C:CATEMP11
   - 0142:VPWR
   - 0144:EQ_RAT
+  - 0146:AAT
   - 0147:TP_B
   - 0149:APP_D
   - 014A:APP_E
+  - 014C:TAC_PCT
+  - 014D:MIL_TIME
+  - 014E:CLR_TIME
+  - 014F:MAX_EQ_RAT,MAX_MAP,MAX_O2_CURR,MAX_O2_VOLT
+  - 0150:MAX_MAF
+  - 0151:FUEL_TYP
+  - 015E:FUEL_RATE
   "7E1":
   - 7E1.7E9.0105
 unsupported_commands_by_ecu:
