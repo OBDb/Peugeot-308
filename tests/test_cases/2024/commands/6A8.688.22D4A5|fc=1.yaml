@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D4A5|fc=1
+test_cases:
+- expected_values:
+    308_ALTERNATOR_LOAD: 52
+  response: 6880462D4A534

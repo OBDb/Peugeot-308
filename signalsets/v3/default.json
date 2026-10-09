@@ -1,21 +1,21 @@
 { "commands": [
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "cmd": {"22": "D400"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "cmd": {"22": "D400"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_RPM", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Engine RPM", "suggestedMetric": "engineSpeed"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D402"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D402"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_VSS_6A8", "path": "Movement", "fmt": { "len": 16, "max": 511, "div": 128, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D404"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D404"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_CLU_PEDAL", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Clutch pedal"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D405"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D405"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_ACCEL_PEDAL_SIG_1_V", "path": "Battery", "fmt": { "len": 16, "max": 6.55, "min": -6.55, "div": 5000.0001263106, "sign": true, "unit": "volts" }, "name": "Accelerator pedal signal 1 voltage"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D406"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D406"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_ACCEL_PEDAL_SIG_2_V", "path": "Battery", "fmt": { "len": 16, "max": 6.55, "min": -6.55, "div": 5000.0001263106, "sign": true, "unit": "volts" }, "name": "Accelerator pedal signal 2 voltage"}
   ]},
@@ -23,7 +23,7 @@
   "signals": [
     {"id": "308_ACCEL_PEDAL_POS_RECALCULATED", "path": "Movement", "fmt": { "len": 16, "max": 511, "div": 128, "unit": "percent" }, "name": "Accelerator pedal position, recalculated"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D409"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D409"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_CALC_GEAR_GEARBOX", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Calculated gear in gearbox"}
   ]},
@@ -31,7 +31,7 @@
   "signals": [
     {"id": "308_ECT_CORRECTED", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Coolant temperature, corrected"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D40D"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D40D"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_ECT_TGT", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Coolant temperature target"}
   ]},
@@ -39,11 +39,11 @@
   "signals": [
     {"id": "308_BOOST_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 3003, "min": -3549, "div": 10, "add": -273.1400146484, "sign": true, "unit": "celsius" }, "name": "Boost air temperature"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D412"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D412"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_STAT_INTERNAL_IGN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Status of internal ignition motor"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D414"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D414"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_AAT_6A8", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Outside air temperature"}
   ]},
@@ -71,7 +71,7 @@
   "signals": [
     {"id": "308_AC_COMP_CURRENT", "path": "Engine", "fmt": { "len": 8, "max": 6375, "mul": 25, "unit": "scalar" }, "name": "Air conditioning compressor current"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D41E"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D41E"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_ENG_OIL_LEVEL_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 6553, "min": -6553, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Engine oil level sensor voltage"}
   ]},
@@ -83,7 +83,7 @@
   "signals": [
     {"id": "308_AC_P", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "bars" }, "name": "Air conditioning pressure"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D422"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D422"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_ENG_CTRL_COMPUTER_V", "path": "Battery", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100.0000022352, "sign": true, "unit": "volts" }, "name": "Engine control computer supply voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
@@ -103,7 +103,7 @@
   "signals": [
     {"id": "308_5V_POWER_SUP_ST_4", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "5V power supply state number 4"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D429"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D429"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_OIL_P", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "bars" }, "name": "Oil pressure"}
   ]},
@@ -111,7 +111,7 @@
   "signals": [
     {"id": "308_FUEL_T", "path": "Fuel", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.14, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D42F"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D42F"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_GMV_ELEC_COOLING_FAN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Electric cooling fan control"}
   ]},
@@ -119,19 +119,19 @@
   "signals": [
     {"id": "308_COMPUTER_T", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Computer temperature"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D438"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D438"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_NEUTRAL_POS_SENS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Neutral position sensor status"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "cmd": {"22": "D43B"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "cmd": {"22": "D43B"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_OIL_P_REGULATION", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "percent" }, "name": "Oil pressure regulation control"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D43C"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D43C"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_REVERSE_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Reverse gear contactor status"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D43D"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D43D"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_ENGAGED_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engaged gear"}
   ]},
@@ -147,7 +147,7 @@
   "signals": [
     {"id": "308_HIGH_FUEL_P_MEAS", "path": "Fuel", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "bars" }, "name": "High fuel pressure measured"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D462"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D462"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_CRANK_SPD", "path": "Movement", "fmt": { "len": 16, "max": 32767, "div": 2, "unit": "rpm" }, "name": "Crankshaft speed"}
   ]},
@@ -155,31 +155,31 @@
   "signals": [
     {"id": "308_BRAKE_SYSTEM_BACKUP", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake system backup contactor status"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "cmd": {"22": "D464"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "cmd": {"22": "D464"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_OIL_P_REFERENCE", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "bars" }, "name": "Oil pressure reference value"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D465"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D465"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_ATMOSPHERIC_P", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Atmospheric pressure"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D467"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D467"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_SERVICE_BAT_CHG_STAT", "path": "Battery", "fmt": { "len": 16, "max": 4095, "div": 16, "unit": "percent" }, "name": "Service battery charge status"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D469"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D469"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_CLU_PEDAL_POS", "path": "Transmission", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "percent" }, "name": "Clutch pedal position value"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D472"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D472"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_LOW_P_FUEL_PMP", "path": "Fuel", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100.0000022352, "sign": true, "unit": "percent" }, "name": "Low pressure fuel pump actuator duty cycle"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D474"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D474"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_ABS_EKS_PROCESS_ADJ", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Anti-lock brake or stability control regulating"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D475"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D475"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_CRUISE_CTRL_SET_SPD", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control set speed"}
   ]},
@@ -187,11 +187,11 @@
   "signals": [
     {"id": "308_VSS_LIMITER_SET_SPD", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed limiter set speed"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D477"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D477"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_ENG_STOP_TIME", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "seconds" }, "name": "Engine stop time"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D478"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D478"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_STARTER_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "seconds" }, "name": "Starter duty cycle"}
   ]},
@@ -219,15 +219,15 @@
   "signals": [
     {"id": "308_AIR_FLOW_TGT", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "unknown" }, "name": "Air flow target"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D491"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D491"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_ACCEL_PEDAL_POS_1", "path": "Movement", "fmt": { "len": 16, "max": 399, "min": -399, "div": 81.92000625, "sign": true, "unit": "percent" }, "name": "Accelerator pedal position, track 1"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D492"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D492"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_ACCEL_PEDAL_POS_2", "path": "Movement", "fmt": { "len": 16, "max": 399, "min": -399, "div": 81.92000625, "sign": true, "unit": "percent" }, "name": "Accelerator pedal position, track 2"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D496"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D496"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_SERVICE_BAT_T_6A8", "path": "Battery", "fmt": { "len": 16, "max": 16383, "min": -16384, "div": 2, "sign": true, "unit": "celsius" }, "name": "Service battery temperature"}
   ]},
@@ -235,11 +235,11 @@
   "signals": [
     {"id": "308_BAT_CURRENT", "path": "Battery", "fmt": { "len": 32, "max": 2097151, "min": -2097152, "div": 1024, "sign": true, "unit": "amps" }, "name": "Battery current"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D498"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D498"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_MAX_CLU_TRAVEL", "path": "Transmission", "fmt": { "len": 16, "max": 4095, "div": 16, "unit": "percent" }, "name": "Maximum clutch travel during gear shift"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D499"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D499"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_CRANK_SPD_DETERMINED", "path": "Movement", "fmt": { "len": 16, "max": 16383, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Crankshaft speed determined by camshaft sensor"}
   ]},
@@ -247,11 +247,11 @@
   "signals": [
     {"id": "308_ODO_6A8", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Total mileage", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4A5"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4A5"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_ALTERNATOR_LOAD", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Alternator load value"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4AA"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4AA"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_SET_SPD_ELEC_COOLING", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Set speed of electric cooling fan"}
   ]},
@@ -259,7 +259,7 @@
   "signals": [
     {"id": "308_AC", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Air conditioning"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4B0"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4B0"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_CRUISE_CTRL_RW_STAT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control, RW status"}
   ]},
@@ -271,15 +271,15 @@
   "signals": [
     {"id": "308_VSS_LIMITER_STAT_LW", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Vehicle speed limiter status, LW"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4C3"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4C3"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_STARTER_ENGAGEMENT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Starter engagement status"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4CA"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4CA"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_DATE", "path": "Engine", "fmt": { "len": 32, "max": 429496729, "div": 10, "unit": "seconds" }, "name": "Date"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4D2"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4D2"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_INDICATED_ENG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 4095, "div": 16, "unit": "newtonMeters" }, "name": "Indicated engine torque"}
   ]},
@@ -287,7 +287,7 @@
   "signals": [
     {"id": "308_MIN_BAT_V_STARTUP", "path": "Battery", "fmt": { "len": 16, "max": 655, "min": -655, "div": 50.0000011176, "sign": true, "unit": "volts" }, "name": "Minimum battery voltage at startup"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4D8"}, "freq": 3600, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4D8"}, "freq": 3600, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_CNT_NUM_RE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Computer restarts since memory erase"}
   ]},
@@ -299,7 +299,7 @@
   "signals": [
     {"id": "308_ESTIMATED_TQ", "path": "Engine", "fmt": { "len": 16, "max": 4095, "div": 16, "unit": "newtonMeters" }, "name": "Estimated torque of internal friction of the engine"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4E3"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4E3"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_TQ_CORRESPONDING", "path": "Engine", "fmt": { "len": 16, "max": 2047, "min": -2048, "div": 16, "sign": true, "unit": "newtonMeters" }, "name": "Torque corresponding to driver requirement"}
   ]},
@@ -371,23 +371,23 @@
   "signals": [
     {"id": "308_REQ_CONTROLLED", "path": "Engine", "fmt": { "len": 16, "max": 399, "min": -399, "div": 81.92000625, "sign": true, "unit": "percent" }, "name": "Requested value controlled thermostat"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D700"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D700"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_VACUUM_PRESENT_BRAKE", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Vacuum present in the brake system"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D703"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D703"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_AUTOMATIC_STOP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Automatic stop allowed by body control module"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D704"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D704"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_AUTOMATIC_STOP_ALLOWED", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Automatic stop allowed by gearbox computer"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D705"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D705"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_AUTOMATIC_STOP_ALLOWED_POWER_STEER", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Automatic stop allowed by power steering computer"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D706"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D706"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_STOP_ALLOWED_ESP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Stop allowed by ESP computer"}
   ]},
@@ -395,15 +395,15 @@
   "signals": [
     {"id": "308_STOP_PERMITTED", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Stop permitted by suspension computer"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D709"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D709"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_AUTOMATIC_RESTART", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Automatic restart request from engine management computer"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D70A"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D70A"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_AUTOMATIC_RESTART_REQ_BSI", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Automatic restart request from body control module"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D70B"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D70B"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_AUTOMATIC_RESTART_REQ", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Automatic restart request from transmission computer"}
   ]},
@@ -443,7 +443,7 @@
   "signals": [
     {"id": "308_ENG_RESTART_CNT_STOP", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Engine restart counter by stop and start function"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D71E"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D71E"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_START_OR_RESTART", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Start or restart inhibition transmitted by engine management computer"}
   ]},
@@ -471,7 +471,7 @@
   "signals": [
     {"id": "308_ECO_MODE_OFF_ST", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Economy mode off state"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D725"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D725"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_STOP_START_FUNCTION", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Stop and start function state"}
   ]},
@@ -483,7 +483,7 @@
   "signals": [
     {"id": "308_TQ_SUPPLIED_OR_TAKEN", "path": "Engine", "fmt": { "len": 16, "max": 2047, "min": -2048, "div": 16, "sign": true, "unit": "newtonMeters" }, "name": "Torque supplied or taken by generator"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D72A"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D72A"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_STARTER_CTRL", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Starter control interface unit operating status"}
   ]},
@@ -519,11 +519,11 @@
   "signals": [
     {"id": "308_VACUUM_CIRCUIT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Vacuum circuit vacuum"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D741"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D741"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_SERVICE_BAT_WEAR", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Service battery wear condition"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D742"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D742"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_SERVICE_BAT_CHG_ST", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Service battery charge state"}
   ]},
@@ -539,7 +539,7 @@
   "signals": [
     {"id": "308_STOP_PERMITTED_V", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Stop permitted by voltage maintainer computer"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D74B"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D74B"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_SERVICE_NETWORK", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Service network related engine restart request"}
   ]},
@@ -571,19 +571,19 @@
   "signals": [
     {"id": "308_GEN_SHUTDOWN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Generator shutdown"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D761"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D761"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_RETURN_STARTER_ENG", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Return to starter engine restart control"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D764"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D764"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_RETURN_ENG_START", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Return to engine start and restart control by starter"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D766"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D766"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_SET_V_STORAGE_BAT", "path": "Battery", "fmt": { "len": 16, "max": 511, "div": 128, "unit": "volts" }, "name": "Set voltage of storage battery charging"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D767"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D767"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_START_INHIBIT_CTRL", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Start inhibit control, wired"}
   ]},
@@ -599,7 +599,7 @@
   "signals": [
     {"id": "308_EXPECTED_GEN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Expected generator supplier identifier of the reversible generator"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D78A"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D78A"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "308_SERVICE_BAT_V", "path": "Battery", "fmt": { "len": 16, "max": 511, "div": 128, "unit": "volts" }, "name": "Service battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},

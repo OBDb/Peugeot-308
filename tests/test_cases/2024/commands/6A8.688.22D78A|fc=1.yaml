@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D78A|fc=1
+test_cases:
+- expected_values:
+    308_SERVICE_BAT_V: 14.30469
+  response: 6880562D78A0727

@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D400|fc=1,din=C0
+test_cases:
+- expected_values:
+    308_RPM: 751
+  response: 6880562D40002EF

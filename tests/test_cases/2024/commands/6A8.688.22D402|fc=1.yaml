@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D402|fc=1
+test_cases:
+- expected_values:
+    308_VSS_6A8: 0
+  response: 6880562D4020000
