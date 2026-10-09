@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D754|fc=1
+test_cases:
+- expected_values:
+    308_NUM_SHIFT_SOLENOID_OPERATED_SC4: 9561
+  response: 6890762D75400002559
+- expected_values:
+    308_NUM_SHIFT_SOLENOID_OPERATED_SC4: 9562
+  response: 6890762D7540000255A

@@ -1,0 +1,14 @@
+command_id: 6A9.689.22D650|fc=1
+test_cases:
+- expected_values:
+    308_AUTOMATIC_TRANS_INPUT_SHFT: 300
+  response: 6890562D6500096
+- expected_values:
+    308_AUTOMATIC_TRANS_INPUT_SHFT: 1508
+  response: 6890562D65002F2
+- expected_values:
+    308_AUTOMATIC_TRANS_INPUT_SHFT: 1592
+  response: 6890562D650031C
+- expected_values:
+    308_AUTOMATIC_TRANS_INPUT_SHFT: 3242
+  response: 6890562D6500655
