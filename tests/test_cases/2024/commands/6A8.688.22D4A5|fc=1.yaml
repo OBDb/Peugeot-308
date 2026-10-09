@@ -1,0 +1,32 @@
+command_id: 6A8.688.22D4A5|fc=1
+test_cases:
+- expected_values:
+    308_ALTERNATOR_LOAD: 0
+  response: 6880462D4A500
+- expected_values:
+    308_ALTERNATOR_LOAD: 19
+  response: 6880462D4A513
+- expected_values:
+    308_ALTERNATOR_LOAD: 23
+  response: 6880462D4A517
+- expected_values:
+    308_ALTERNATOR_LOAD: 26
+  response: 6880462D4A51A
+- expected_values:
+    308_ALTERNATOR_LOAD: 29
+  response: 6880462D4A51D
+- expected_values:
+    308_ALTERNATOR_LOAD: 32
+  response: 6880462D4A520
+- expected_values:
+    308_ALTERNATOR_LOAD: 36
+  response: 6880462D4A524
+- expected_values:
+    308_ALTERNATOR_LOAD: 39
+  response: 6880462D4A527
+- expected_values:
+    308_ALTERNATOR_LOAD: 42
+  response: 6880462D4A52A
+- expected_values:
+    308_ALTERNATOR_LOAD: 52
+  response: 6880462D4A534

@@ -1,0 +1,23 @@
+command_id: 6A8.688.22D409|fc=1
+test_cases:
+- expected_values:
+    308_CALC_GEAR_GEARBOX: 0
+  response: 6880462D40900
+- expected_values:
+    308_CALC_GEAR_GEARBOX: 1
+  response: 6880462D40901
+- expected_values:
+    308_CALC_GEAR_GEARBOX: 2
+  response: 6880462D40902
+- expected_values:
+    308_CALC_GEAR_GEARBOX: 3
+  response: 6880462D40903
+- expected_values:
+    308_CALC_GEAR_GEARBOX: 4
+  response: 6880462D40904
+- expected_values:
+    308_CALC_GEAR_GEARBOX: 5
+  response: 6880462D40905
+- expected_values:
+    308_CALC_GEAR_GEARBOX: 6
+  response: 6880462D40906

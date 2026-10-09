@@ -1,0 +1,32 @@
+command_id: 6A9.689.22D75B|fc=1
+test_cases:
+- expected_values:
+    308_NUM_ACTIVATIONS_GEAR_7: 17715
+  response: 6890762D75B00004533
+- expected_values:
+    308_NUM_ACTIVATIONS_GEAR_7: 17716
+  response: 6890762D75B00004534
+- expected_values:
+    308_NUM_ACTIVATIONS_GEAR_7: 17717
+  response: 6890762D75B00004535
+- expected_values:
+    308_NUM_ACTIVATIONS_GEAR_7: 17719
+  response: 6890762D75B00004537
+- expected_values:
+    308_NUM_ACTIVATIONS_GEAR_7: 17721
+  response: 6890762D75B00004539
+- expected_values:
+    308_NUM_ACTIVATIONS_GEAR_7: 17722
+  response: 6890762D75B0000453A
+- expected_values:
+    308_NUM_ACTIVATIONS_GEAR_7: 17723
+  response: 6890762D75B0000453B
+- expected_values:
+    308_NUM_ACTIVATIONS_GEAR_7: 17724
+  response: 6890762D75B0000453C
+- expected_values:
+    308_NUM_ACTIVATIONS_GEAR_7: 17725
+  response: 6890762D75B0000453D
+- expected_values:
+    308_NUM_ACTIVATIONS_GEAR_7: 17726
+  response: 6890762D75B0000453E

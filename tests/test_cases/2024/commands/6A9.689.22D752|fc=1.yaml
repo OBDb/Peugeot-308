@@ -1,0 +1,11 @@
+command_id: 6A9.689.22D752|fc=1
+test_cases:
+- expected_values:
+    308_NUM_SHIFT_SOLENOID: 29723
+  response: 6890762D7520000741B
+- expected_values:
+    308_NUM_SHIFT_SOLENOID: 29728
+  response: 6890762D75200007420
+- expected_values:
+    308_NUM_SHIFT_SOLENOID: 29729
+  response: 6890762D75200007421
