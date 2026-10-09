@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D802|fc=1
+test_cases:
+- expected_values:
+    308_ODO_6A9: 38705
+  response: 6890662D802009731
+- expected_values:
+    308_ODO_6A9: 38721
+  response: 6890662D802009741

@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D748|fc=1
+test_cases:
+- expected_values:
+    308_NUM_GEAR_ENGAGEMENTS_2: 73570
+  response: 6890762D74800011F62
+- expected_values:
+    308_NUM_GEAR_ENGAGEMENTS_2: 73593
+  response: 6890762D74800011F79

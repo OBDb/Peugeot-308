@@ -1,0 +1,11 @@
+command_id: 6A9.689.22D506|fc=1
+test_cases:
+- expected_values:
+    308_MAX_ALLOWABLE_TQ: -16
+  response: 6890462D5062A
+- expected_values:
+    308_MAX_ALLOWABLE_TQ: 0
+  response: 6890462D50632
+- expected_values:
+    308_MAX_ALLOWABLE_TQ: 408
+  response: 6890462D506FE

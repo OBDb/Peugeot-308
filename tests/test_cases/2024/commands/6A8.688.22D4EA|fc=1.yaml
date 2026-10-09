@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D4EA|fc=1
+test_cases:
+- expected_values:
+    308_TURBOCHARGER_POS: 4.4
+  response: 6880562D4EA01B8
+- expected_values:
+    308_TURBOCHARGER_POS: 5.06
+  response: 6880562D4EA01FA
+- expected_values:
+    308_TURBOCHARGER_POS: 5.12
+  response: 6880562D4EA0200
+- expected_values:
+    308_TURBOCHARGER_POS: 99.89
+  response: 6880562D4EA2705

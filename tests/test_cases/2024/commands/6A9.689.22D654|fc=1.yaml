@@ -1,0 +1,29 @@
+command_id: 6A9.689.22D654|fc=1
+test_cases:
+- expected_values:
+    308_TQ_CONV_SLIP_SPD: -384
+  response: 6890462D65479
+- expected_values:
+    308_TQ_CONV_SLIP_SPD: -64
+  response: 6890462D6547E
+- expected_values:
+    308_TQ_CONV_SLIP_SPD: 0
+  response: 6890462D6547F
+- expected_values:
+    308_TQ_CONV_SLIP_SPD: 64
+  response: 6890462D65480
+- expected_values:
+    308_TQ_CONV_SLIP_SPD: 192
+  response: 6890462D65482
+- expected_values:
+    308_TQ_CONV_SLIP_SPD: 256
+  response: 6890462D65483
+- expected_values:
+    308_TQ_CONV_SLIP_SPD: 576
+  response: 6890462D65488
+- expected_values:
+    308_TQ_CONV_SLIP_SPD: 640
+  response: 6890462D65489
+- expected_values:
+    308_TQ_CONV_SLIP_SPD: 704
+  response: 6890462D6548A

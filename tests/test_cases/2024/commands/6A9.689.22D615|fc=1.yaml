@@ -1,0 +1,29 @@
+command_id: 6A9.689.22D615|fc=1
+test_cases:
+- expected_values:
+    308_MEAS_CURRENT_P_C3: 90
+  response: 6890462D61509
+- expected_values:
+    308_MEAS_CURRENT_P_C3: 100
+  response: 6890462D6150A
+- expected_values:
+    308_MEAS_CURRENT_P_C3: 180
+  response: 6890462D61512
+- expected_values:
+    308_MEAS_CURRENT_P_C3: 210
+  response: 6890462D61515
+- expected_values:
+    308_MEAS_CURRENT_P_C3: 280
+  response: 6890462D6151C
+- expected_values:
+    308_MEAS_CURRENT_P_C3: 310
+  response: 6890462D6151F
+- expected_values:
+    308_MEAS_CURRENT_P_C3: 320
+  response: 6890462D61520
+- expected_values:
+    308_MEAS_CURRENT_P_C3: 400
+  response: 6890462D61528
+- expected_values:
+    308_MEAS_CURRENT_P_C3: 510
+  response: 6890462D61533

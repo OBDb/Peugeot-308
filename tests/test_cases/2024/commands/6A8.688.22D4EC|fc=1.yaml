@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D4EC|fc=1
+test_cases:
+- expected_values:
+    308_APPROXIMATE_POS: 4.79688
+  response: 6880562D4EC0266
+- expected_values:
+    308_APPROXIMATE_POS: 11.92969
+  response: 6880562D4EC05F7
+- expected_values:
+    308_APPROXIMATE_POS: 54.15625
+  response: 6880562D4EC1B14
+- expected_values:
+    308_APPROXIMATE_POS: 99.07812
+  response: 6880562D4EC318A

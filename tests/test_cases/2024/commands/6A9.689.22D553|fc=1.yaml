@@ -1,0 +1,14 @@
+command_id: 6A9.689.22D553|fc=1
+test_cases:
+- expected_values:
+    308_ENG_OP_MODE: 743
+  response: 6890562D5531738
+- expected_values:
+    308_ENG_OP_MODE: 767
+  response: 6890562D55317F8
+- expected_values:
+    308_ENG_OP_MODE: 864
+  response: 6890562D5531B00
+- expected_values:
+    308_ENG_OP_MODE: 3226
+  response: 6890562D55364D0

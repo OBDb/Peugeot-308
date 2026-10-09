@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D746|fc=1
+test_cases:
+- expected_values:
+    308_NUM_ACTIVATIONS_TQ: 502883
+  response: 6890762D7460007AC63
+- expected_values:
+    308_NUM_ACTIVATIONS_TQ: 503019
+  response: 6890762D7460007ACEB
