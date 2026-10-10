@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D711|fc=1
+test_cases:
+- expected_values:
+    308_VSS_6A9: 0
+  response: 6890462D71100
+- expected_values:
+    308_VSS_6A9: 103
+  response: 6890462D71167

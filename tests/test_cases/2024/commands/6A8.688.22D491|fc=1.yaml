@@ -1,0 +1,11 @@
+command_id: 6A8.688.22D491|fc=1
+test_cases:
+- expected_values:
+    308_ACCEL_PEDAL_POS_1: 0
+  response: 6880562D4910000
+- expected_values:
+    308_ACCEL_PEDAL_POS_1: 2.81982
+  response: 6880562D49100E7
+- expected_values:
+    308_ACCEL_PEDAL_POS_1: 6.67725
+  response: 6880562D4910223

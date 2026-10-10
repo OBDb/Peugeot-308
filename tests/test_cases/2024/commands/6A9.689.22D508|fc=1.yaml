@@ -1,0 +1,17 @@
+command_id: 6A9.689.22D508|fc=1
+test_cases:
+- expected_values:
+    308_AUTOMATIC_TRANS_TQ: -18
+  response: 6890462D50829
+- expected_values:
+    308_AUTOMATIC_TRANS_TQ: 0
+  response: 6890462D50832
+- expected_values:
+    308_AUTOMATIC_TRANS_TQ: 54
+  response: 6890462D5084D
+- expected_values:
+    308_AUTOMATIC_TRANS_TQ: 96
+  response: 6890462D50862
+- expected_values:
+    308_AUTOMATIC_TRANS_TQ: 408
+  response: 6890462D508FE

@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D725|fc=1
+test_cases:
+- expected_values:
+    308_STOP_START_FUNCTION: 6
+  response: 6880462D72506
+- expected_values:
+    308_STOP_START_FUNCTION: 9
+  response: 6880462D72509

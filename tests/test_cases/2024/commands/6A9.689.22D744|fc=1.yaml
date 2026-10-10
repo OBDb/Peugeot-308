@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D744|fc=1
+test_cases:
+- expected_values:
+    308_NUM_ACTIVATIONS_CLU_C3: 127809
+  response: 6890762D7440001F341
+- expected_values:
+    308_NUM_ACTIVATIONS_CLU_C3: 127858
+  response: 6890762D7440001F372

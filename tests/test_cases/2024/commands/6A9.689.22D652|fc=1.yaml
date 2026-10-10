@@ -1,0 +1,11 @@
+command_id: 6A9.689.22D652|fc=1
+test_cases:
+- expected_values:
+    308_AUTOMATIC_TRANS_OUTPUT: 0
+  response: 6890562D6520000
+- expected_values:
+    308_AUTOMATIC_TRANS_OUTPUT: 2047
+  response: 6890562D65207FF
+- expected_values:
+    308_AUTOMATIC_TRANS_OUTPUT: 2820
+  response: 6890562D6520B04
