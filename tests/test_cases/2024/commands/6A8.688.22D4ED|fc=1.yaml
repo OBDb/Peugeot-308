@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     308_LOW_P_FUEL_PMP_STAT: 0
   response: 6880462D4ED00
+- expected_values:
+    308_LOW_P_FUEL_PMP_STAT: 8
+  response: 6880462D4ED08

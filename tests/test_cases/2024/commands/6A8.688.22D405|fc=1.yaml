@@ -1,14 +1,14 @@
 command_id: 6A8.688.22D405|fc=1
 test_cases:
 - expected_values:
-    308_ACCEL_PEDAL_SIG_1_V: 0.015
-  response: 6880562D405004B
+    308_ACCEL_PEDAL_SIG_1_V: 0.0148
+  response: 6880562D405004A
 - expected_values:
-    308_ACCEL_PEDAL_SIG_1_V: 0.0536
-  response: 6880562D405010C
+    308_ACCEL_PEDAL_SIG_1_V: 0.0522
+  response: 6880562D4050105
 - expected_values:
     308_ACCEL_PEDAL_SIG_1_V: 0.1018
   response: 6880562D40501FD
 - expected_values:
-    308_ACCEL_PEDAL_SIG_1_V: 0.1052
-  response: 6880562D405020E
+    308_ACCEL_PEDAL_SIG_1_V: 0.1038
+  response: 6880562D4050207

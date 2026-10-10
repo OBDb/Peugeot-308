@@ -4,8 +4,8 @@ test_cases:
     308_CRANK_SPD: 0
   response: 6880562D4620000
 - expected_values:
-    308_CRANK_SPD: 638.5
-  response: 6880562D46204FD
+    308_CRANK_SPD: 767.5
+  response: 6880562D46205FF
 - expected_values:
-    308_CRANK_SPD: 1552.5
-  response: 6880562D4620C21
+    308_CRANK_SPD: 1866.5
+  response: 6880562D4620E95

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     308_NUM_LINE_P_CTRL: 9781
   response: 6890762D75100002635
+- expected_values:
+    308_NUM_LINE_P_CTRL: 9802
+  response: 6890762D7510000264A

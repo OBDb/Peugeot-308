@@ -7,5 +7,20 @@ test_cases:
     308_MEAS_CURRENT_P_B2: 100
   response: 6890462D6230A
 - expected_values:
+    308_MEAS_CURRENT_P_B2: 110
+  response: 6890462D6230B
+- expected_values:
+    308_MEAS_CURRENT_P_B2: 130
+  response: 6890462D6230D
+- expected_values:
     308_MEAS_CURRENT_P_B2: 180
   response: 6890462D62312
+- expected_values:
+    308_MEAS_CURRENT_P_B2: 300
+  response: 6890462D6231E
+- expected_values:
+    308_MEAS_CURRENT_P_B2: 320
+  response: 6890462D62320
+- expected_values:
+    308_MEAS_CURRENT_P_B2: 360
+  response: 6890462D62324

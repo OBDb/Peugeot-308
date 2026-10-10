@@ -4,8 +4,8 @@ test_cases:
     308_ACCEL_PEDAL_POS_1: 0
   response: 6880562D4910000
 - expected_values:
-    308_ACCEL_PEDAL_POS_1: 2.81982
-  response: 6880562D49100E7
+    308_ACCEL_PEDAL_POS_1: 6.14014
+  response: 6880562D49101F7
 - expected_values:
-    308_ACCEL_PEDAL_POS_1: 6.67725
-  response: 6880562D4910223
+    308_ACCEL_PEDAL_POS_1: 12.09717
+  response: 6880562D49103DF

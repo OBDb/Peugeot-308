@@ -1,6 +1,9 @@
 command_id: 6A9.689.22D501|fc=1
 test_cases:
 - expected_values:
+    308_ENGAGED_GEAR_6A9: 0
+  response: 6890462D50100
+- expected_values:
     308_ENGAGED_GEAR_6A9: 1
   response: 6890462D50101
 - expected_values:
@@ -21,3 +24,9 @@ test_cases:
 - expected_values:
     308_ENGAGED_GEAR_6A9: 7
   response: 6890462D50107
+- expected_values:
+    308_ENGAGED_GEAR_6A9: 8
+  response: 6890462D50108
+- expected_values:
+    308_ENGAGED_GEAR_6A9: 10
+  response: 6890462D5010A

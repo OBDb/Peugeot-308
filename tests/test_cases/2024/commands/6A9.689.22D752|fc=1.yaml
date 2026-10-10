@@ -9,3 +9,21 @@ test_cases:
 - expected_values:
     308_NUM_SHIFT_SOLENOID: 29729
   response: 6890762D75200007421
+- expected_values:
+    308_NUM_SHIFT_SOLENOID: 29810
+  response: 6890762D75200007472
+- expected_values:
+    308_NUM_SHIFT_SOLENOID: 29811
+  response: 6890762D75200007473
+- expected_values:
+    308_NUM_SHIFT_SOLENOID: 29812
+  response: 6890762D75200007474
+- expected_values:
+    308_NUM_SHIFT_SOLENOID: 29813
+  response: 6890762D75200007475
+- expected_values:
+    308_NUM_SHIFT_SOLENOID: 29814
+  response: 6890762D75200007476
+- expected_values:
+    308_NUM_SHIFT_SOLENOID: 29815
+  response: 6890762D75200007477

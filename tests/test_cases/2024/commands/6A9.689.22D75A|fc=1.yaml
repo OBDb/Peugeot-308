@@ -6,3 +6,21 @@ test_cases:
 - expected_values:
     308_NUM_ACTIVATIONS_B2: 18554
   response: 6890762D75A0000487A
+- expected_values:
+    308_NUM_ACTIVATIONS_B2: 18594
+  response: 6890762D75A000048A2
+- expected_values:
+    308_NUM_ACTIVATIONS_B2: 18595
+  response: 6890762D75A000048A3
+- expected_values:
+    308_NUM_ACTIVATIONS_B2: 18596
+  response: 6890762D75A000048A4
+- expected_values:
+    308_NUM_ACTIVATIONS_B2: 18597
+  response: 6890762D75A000048A5
+- expected_values:
+    308_NUM_ACTIVATIONS_B2: 18598
+  response: 6890762D75A000048A6
+- expected_values:
+    308_NUM_ACTIVATIONS_B2: 18599
+  response: 6890762D75A000048A7

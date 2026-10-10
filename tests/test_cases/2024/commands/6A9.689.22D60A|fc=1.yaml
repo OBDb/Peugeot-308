@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     308_CTRL_CURRENT: 0
   response: 6890462D60A00
+- expected_values:
+    308_CTRL_CURRENT: 10
+  response: 6890462D60A01

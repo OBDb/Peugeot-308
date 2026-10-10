@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     308_LOCK_STAT: 0
   response: 6880462DADD00
+- expected_values:
+    308_LOCK_STAT: 1
+  response: 6880462DADD01

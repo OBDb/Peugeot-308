@@ -4,8 +4,8 @@ test_cases:
     308_RR_WHL_SPD: 0
   response: 6890562D5320000
 - expected_values:
-    308_RR_WHL_SPD: 12.67
-  response: 6890562D53204F3
+    308_RR_WHL_SPD: 81.9
+  response: 6890562D5321FFE
 - expected_values:
-    308_RR_WHL_SPD: 99.48
-  response: 6890562D53226DC
+    308_RR_WHL_SPD: 121.28
+  response: 6890562D5322F60

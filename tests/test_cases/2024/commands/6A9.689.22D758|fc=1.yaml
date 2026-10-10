@@ -6,3 +6,18 @@ test_cases:
 - expected_values:
     308_NUM_ACTIVATIONS_P: 12295
   response: 6890762D75800003007
+- expected_values:
+    308_NUM_ACTIVATIONS_P: 12325
+  response: 6890762D75800003025
+- expected_values:
+    308_NUM_ACTIVATIONS_P: 12326
+  response: 6890762D75800003026
+- expected_values:
+    308_NUM_ACTIVATIONS_P: 12327
+  response: 6890762D75800003027
+- expected_values:
+    308_NUM_ACTIVATIONS_P: 12328
+  response: 6890762D75800003028
+- expected_values:
+    308_NUM_ACTIVATIONS_P: 12329
+  response: 6890762D75800003029

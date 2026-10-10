@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     308_START_PERMISSION: 0
   response: 6880462D41A00
+- expected_values:
+    308_START_PERMISSION: 1
+  response: 6880462D41A01

@@ -18,3 +18,15 @@ test_cases:
 - expected_values:
     308_CTRL_CURRENT_P_C4: 480
   response: 6890462D62030
+- expected_values:
+    308_CTRL_CURRENT_P_C4: 490
+  response: 6890462D62031
+- expected_values:
+    308_CTRL_CURRENT_P_C4: 500
+  response: 6890462D62032
+- expected_values:
+    308_CTRL_CURRENT_P_C4: 540
+  response: 6890462D62036
+- expected_values:
+    308_CTRL_CURRENT_P_C4: 550
+  response: 6890462D62037

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     308_NUM_GEAR_ENGAGEMENTS_3: 63627
   response: 6890762D7490000F88B
+- expected_values:
+    308_NUM_GEAR_ENGAGEMENTS_3: 63789
+  response: 6890762D7490000F92D
