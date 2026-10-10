@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D4BA|fc=1
+test_cases:
+- expected_values:
+    308_POWERTRAIN_COND: 0
+  response: 6880462D4BA00
+- expected_values:
+    308_POWERTRAIN_COND: 1
+  response: 6880462D4BA01

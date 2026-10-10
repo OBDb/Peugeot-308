@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D435|fc=1
+test_cases:
+- expected_values:
+    308_COMPUTER_T: 58
+  response: 6880562D435003A
+- expected_values:
+    308_COMPUTER_T: 85
+  response: 6880562D4350055

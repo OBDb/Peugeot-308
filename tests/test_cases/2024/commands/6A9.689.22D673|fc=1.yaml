@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D673|fc=1
+test_cases:
+- expected_values:
+    308_OP_MODE_USED: 13
+  response: 6890462D6730D
+- expected_values:
+    308_OP_MODE_USED: 15
+  response: 6890462D6730F

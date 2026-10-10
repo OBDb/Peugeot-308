@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D41C|fc=1
+test_cases:
+- expected_values:
+    308_AC_COMP_CURRENT: 0
+  response: 6880462D41C00
+- expected_values:
+    308_AC_COMP_CURRENT: 1425
+  response: 6880462D41C39

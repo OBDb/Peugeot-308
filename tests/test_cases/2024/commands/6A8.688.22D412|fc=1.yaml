@@ -1,0 +1,11 @@
+command_id: 6A8.688.22D412|fc=1
+test_cases:
+- expected_values:
+    308_STAT_INTERNAL_IGN: 5
+  response: 6880462D41205
+- expected_values:
+    308_STAT_INTERNAL_IGN: 6
+  response: 6880462D41206
+- expected_values:
+    308_STAT_INTERNAL_IGN: 7
+  response: 6880462D41207

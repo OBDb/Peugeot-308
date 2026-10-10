@@ -1,0 +1,11 @@
+command_id: 6A8.688.22D414|fc=1
+test_cases:
+- expected_values:
+    308_AAT_6A8: 22
+  response: 6880562D4140016
+- expected_values:
+    308_AAT_6A8: 23
+  response: 6880562D4140017
+- expected_values:
+    308_AAT_6A8: 24
+  response: 6880562D4140018

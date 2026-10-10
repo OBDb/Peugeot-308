@@ -1,0 +1,11 @@
+command_id: 6A8.688.22D4E2|fc=1
+test_cases:
+- expected_values:
+    308_ESTIMATED_TQ: 7.875
+  response: 6880562D4E2007E
+- expected_values:
+    308_ESTIMATED_TQ: 14.75
+  response: 6880562D4E200EC
+- expected_values:
+    308_ESTIMATED_TQ: 16.5
+  response: 6880562D4E20108

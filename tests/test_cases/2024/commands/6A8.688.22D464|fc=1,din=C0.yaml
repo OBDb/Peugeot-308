@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D464|fc=1,din=C0
+test_cases:
+- expected_values:
+    308_OIL_P_REFERENCE: 2.883
+  response: 6880562D4640B43
+- expected_values:
+    308_OIL_P_REFERENCE: 3.071
+  response: 6880562D4640BFF
+- expected_values:
+    308_OIL_P_REFERENCE: 3.074
+  response: 6880562D4640C02
+- expected_values:
+    308_OIL_P_REFERENCE: 5.022
+  response: 6880562D464139E
