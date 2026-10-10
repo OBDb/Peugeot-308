@@ -1,14 +1,14 @@
 command_id: 6A8.688.22D429|fc=1
 test_cases:
 - expected_values:
-    308_OIL_P: 6.525
-  response: 6880562D429197D
+    308_OIL_P: 5.67
+  response: 6880562D4291626
 - expected_values:
     308_OIL_P: 18.68
   response: 6880562D42948F8
 - expected_values:
-    308_OIL_P: 19.46
-  response: 6880562D4294C04
+    308_OIL_P: 19.2
+  response: 6880562D4294B00
 - expected_values:
-    308_OIL_P: 25.092
-  response: 6880562D4296204
+    308_OIL_P: 30.036
+  response: 6880562D4297554

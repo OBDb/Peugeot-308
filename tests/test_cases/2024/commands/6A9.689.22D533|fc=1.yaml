@@ -7,5 +7,5 @@ test_cases:
     308_AVG_SPD_FRONT_WHEELS: 46.06
   response: 6890562D53311FE
 - expected_values:
-    308_AVG_SPD_FRONT_WHEELS: 104.31
-  response: 6890562D53328BF
+    308_AVG_SPD_FRONT_WHEELS: 116.44
+  response: 6890562D5332D7C

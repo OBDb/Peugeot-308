@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     308_STARTER_ACTIVATION: 11361
   response: 6880762D71F00002C61
+- expected_values:
+    308_STARTER_ACTIVATION: 11379
+  response: 6880762D71F00002C73
+- expected_values:
+    308_STARTER_ACTIVATION: 11380
+  response: 6880762D71F00002C74

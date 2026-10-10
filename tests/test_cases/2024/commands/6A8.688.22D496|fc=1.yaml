@@ -1,6 +1,18 @@
 command_id: 6A8.688.22D496|fc=1
 test_cases:
 - expected_values:
+    308_SERVICE_BAT_T_6A8: 35
+  response: 6880562D4960046
+- expected_values:
+    308_SERVICE_BAT_T_6A8: 36
+  response: 6880562D4960048
+- expected_values:
+    308_SERVICE_BAT_T_6A8: 37
+  response: 6880562D496004A
+- expected_values:
+    308_SERVICE_BAT_T_6A8: 38
+  response: 6880562D496004C
+- expected_values:
     308_SERVICE_BAT_T_6A8: 41
   response: 6880562D4960052
 - expected_values:

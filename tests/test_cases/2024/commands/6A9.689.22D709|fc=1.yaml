@@ -1,5 +1,8 @@
 command_id: 6A9.689.22D709|fc=1
 test_cases:
 - expected_values:
+    308_ICE_ST: 1
+  response: 6890462D70901
+- expected_values:
     308_ICE_ST: 3
   response: 6890462D70903

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     308_SET_V_STORAGE_BAT: 14.04688
   response: 6880562D7660706
+- expected_values:
+    308_SET_V_STORAGE_BAT: 14.875
+  response: 6880562D7660770

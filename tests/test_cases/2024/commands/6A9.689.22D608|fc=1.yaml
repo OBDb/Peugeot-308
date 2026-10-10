@@ -4,23 +4,5 @@ test_cases:
     308_CTRL_CURRENT_P_B1: 100
   response: 6890462D6080A
 - expected_values:
-    308_CTRL_CURRENT_P_B1: 290
-  response: 6890462D6081D
-- expected_values:
-    308_CTRL_CURRENT_P_B1: 370
-  response: 6890462D60825
-- expected_values:
-    308_CTRL_CURRENT_P_B1: 380
-  response: 6890462D60826
-- expected_values:
-    308_CTRL_CURRENT_P_B1: 410
-  response: 6890462D60829
-- expected_values:
-    308_CTRL_CURRENT_P_B1: 420
-  response: 6890462D6082A
-- expected_values:
-    308_CTRL_CURRENT_P_B1: 430
-  response: 6890462D6082B
-- expected_values:
-    308_CTRL_CURRENT_P_B1: 470
-  response: 6890462D6082F
+    308_CTRL_CURRENT_P_B1: 480
+  response: 6890462D60830

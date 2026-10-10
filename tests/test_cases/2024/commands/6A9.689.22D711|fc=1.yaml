@@ -4,5 +4,5 @@ test_cases:
     308_VSS_6A9: 0
   response: 6890462D71100
 - expected_values:
-    308_VSS_6A9: 103
-  response: 6890462D71167
+    308_VSS_6A9: 121
+  response: 6890462D71179

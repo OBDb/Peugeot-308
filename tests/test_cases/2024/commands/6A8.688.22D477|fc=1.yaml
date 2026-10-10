@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     308_ENG_STOP_TIME: 1097422
   response: 6880762D4770010BECE
+- expected_values:
+    308_ENG_STOP_TIME: 1212729
+  response: 6880762D47700128139

@@ -4,14 +4,14 @@ test_cases:
     308_DATE: 1090964.1
   response: 6880762D4CA00A677C9
 - expected_values:
-    308_DATE: 1091843.1
-  response: 6880762D4CA00A69A1F
+    308_DATE: 1212769
+  response: 6880762D4CA00B90DCA
 - expected_values:
-    308_DATE: 1097470.4
-  response: 6880762D4CA00A775F0
+    308_DATE: 1213619
+  response: 6880762D4CA00B92EFE
 - expected_values:
-    308_DATE: 1097650.3
-  response: 6880762D4CA00A77CF7
+    308_DATE: 1214464
+  response: 6880762D4CA00B95000
 - expected_values:
-    308_DATE: 1097933.3
-  response: 6880762D4CA00A78805
+    308_DATE: 1217338
+  response: 6880762D4CA00B9C044

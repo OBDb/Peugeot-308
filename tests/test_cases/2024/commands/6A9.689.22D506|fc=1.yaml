@@ -7,5 +7,17 @@ test_cases:
     308_MAX_ALLOWABLE_TQ: 0
   response: 6890462D50632
 - expected_values:
+    308_MAX_ALLOWABLE_TQ: 16
+  response: 6890462D5063A
+- expected_values:
+    308_MAX_ALLOWABLE_TQ: 20
+  response: 6890462D5063C
+- expected_values:
+    308_MAX_ALLOWABLE_TQ: 82
+  response: 6890462D5065B
+- expected_values:
+    308_MAX_ALLOWABLE_TQ: 144
+  response: 6890462D5067A
+- expected_values:
     308_MAX_ALLOWABLE_TQ: 408
   response: 6890462D506FE
