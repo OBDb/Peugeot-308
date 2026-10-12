@@ -1,0 +1,5 @@
+command_id: 6B4.694.22D865|fc=1
+test_cases:
+- expected_values:
+    308_HV_BATT_SOC_HI_RES: 52.06
+  response: 6940562D8651456
