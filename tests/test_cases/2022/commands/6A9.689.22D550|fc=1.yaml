@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     308_AUTOMATIC_ATF_T: 36
   response: 6890462D5504C
+- expected_values:
+    308_AUTOMATIC_ATF_T: 37
+  response: 6890462D5504D
+- expected_values:
+    308_AUTOMATIC_ATF_T: 38
+  response: 6890462D5504E
