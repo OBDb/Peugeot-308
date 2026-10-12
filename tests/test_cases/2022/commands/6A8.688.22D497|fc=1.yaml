@@ -9,3 +9,18 @@ test_cases:
 - expected_values:
     308_BAT_CURRENT: 16.48926
   response: 6880762D497000041F5
+- expected_values:
+    308_BAT_CURRENT: -12.60938
+  response: 6880762D497FFFFCD90
+- expected_values:
+    308_BAT_CURRENT: -12.59961
+  response: 6880762D497FFFFCD9A
+- expected_values:
+    308_BAT_CURRENT: -12.5791
+  response: 6880762D497FFFFCDAF
+- expected_values:
+    308_BAT_CURRENT: -12.55957
+  response: 6880762D497FFFFCDC3
+- expected_values:
+    308_BAT_CURRENT: -12.5293
+  response: 6880762D497FFFFCDE2
