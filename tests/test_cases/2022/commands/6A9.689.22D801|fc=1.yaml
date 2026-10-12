@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D801|fc=1
+test_cases:
+- expected_values:
+    308_VEH_HOUR_METER: 35364068.8
+  response: 6890762D801151420F0
+- expected_values:
+    308_VEH_HOUR_METER: 35364119.2
+  response: 6890762D801151422E8

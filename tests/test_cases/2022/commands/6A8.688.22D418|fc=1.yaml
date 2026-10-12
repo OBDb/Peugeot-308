@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D418|fc=1
+test_cases:
+- expected_values:
+    308_CAM_CRANK_POS: 0
+  response: 6880462D41800

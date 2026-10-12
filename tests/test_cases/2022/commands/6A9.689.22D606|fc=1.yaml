@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D606|fc=1
+test_cases:
+- expected_values:
+    308_SLT_LINE_P_VARIATION: 340
+  response: 6890462D60622

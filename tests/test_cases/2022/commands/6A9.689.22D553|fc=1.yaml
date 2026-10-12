@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D553|fc=1
+test_cases:
+- expected_values:
+    308_ENG_OP_MODE: 0
+  response: 6890562D5530000

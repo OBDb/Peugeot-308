@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D49C|fc=1
+test_cases:
+- expected_values:
+    308_ODO_6A8: 114088
+  response: 6880762D49C0001BDA8

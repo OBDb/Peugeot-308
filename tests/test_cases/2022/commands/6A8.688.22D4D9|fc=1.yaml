@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D4D9|fc=1
+test_cases:
+- expected_values:
+    308_TURBOCHARGER_P_MEAS: 12435
+  response: 6880562D4D93093

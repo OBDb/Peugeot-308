@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D415|fc=1
+test_cases:
+- expected_values:
+    308_ECT_6A8: 28.05999
+  response: 6880562D4150BC4

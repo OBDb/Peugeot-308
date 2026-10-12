@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D531|fc=1
+test_cases:
+- expected_values:
+    308_RL_WHL_SPD: 0
+  response: 6890562D5310000

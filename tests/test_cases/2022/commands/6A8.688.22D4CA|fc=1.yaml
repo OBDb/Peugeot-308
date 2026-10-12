@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D4CA|fc=1
+test_cases:
+- expected_values:
+    308_DATE: 35364059.7
+  response: 6880762D4CA15142095
+- expected_values:
+    308_DATE: 35364104.8
+  response: 6880762D4CA15142258
