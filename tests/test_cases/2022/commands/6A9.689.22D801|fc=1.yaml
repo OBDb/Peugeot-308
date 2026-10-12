@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     308_VEH_HOUR_METER: 35364119.2
   response: 6890762D801151422E8
+- expected_values:
+    308_VEH_HOUR_METER: 35364890.7
+  response: 6890762D8011514410B

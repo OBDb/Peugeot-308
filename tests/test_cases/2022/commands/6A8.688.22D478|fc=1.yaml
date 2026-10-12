@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     308_STARTER_DUTY: 1
   response: 6880562D478000A
+- expected_values:
+    308_STARTER_DUTY: 1.1
+  response: 6880562D478000B

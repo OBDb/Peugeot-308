@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     308_NUM_SHIFT_SOLENOID_OPERATED: 3930039
   response: 6890762D756003BF7B7
+- expected_values:
+    308_NUM_SHIFT_SOLENOID_OPERATED: 3930041
+  response: 6890762D756003BF7B9

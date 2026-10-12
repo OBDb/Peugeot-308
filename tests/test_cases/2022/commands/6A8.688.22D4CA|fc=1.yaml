@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     308_DATE: 35364104.8
   response: 6880762D4CA15142258
+- expected_values:
+    308_DATE: 35364882.8
+  response: 6880762D4CA151440BC
