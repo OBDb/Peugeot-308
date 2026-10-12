@@ -1,5 +1,8 @@
 command_id: 6A8.688.22D47D|fc=1
 test_cases:
 - expected_values:
+    308_OIL_T: 25.55999
+  response: 6880562D47D0BAB
+- expected_values:
     308_OIL_T: 25.85999
   response: 6880562D47D0BAE

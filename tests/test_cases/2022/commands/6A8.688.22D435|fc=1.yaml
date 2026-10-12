@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     308_COMPUTER_T: 35
   response: 6880562D4350023
+- expected_values:
+    308_COMPUTER_T: 36
+  response: 6880562D4350024
