@@ -1,5 +1,11 @@
 command_id: 6B4.694.22D815|fc=1
 test_cases:
 - expected_values:
-    308_HV_BATT_V: 312.4
-  response: 6940562D8150C34
+    308_HV_BATT_V: 312.5
+  response: 6940562D8150C35
+- expected_values:
+    308_HV_BATT_V: 312.6
+  response: 6940562D8150C36
+- expected_values:
+    308_HV_BATT_V: 312.8
+  response: 6940562D8150C38

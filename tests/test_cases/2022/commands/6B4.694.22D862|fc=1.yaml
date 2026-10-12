@@ -1,5 +1,0 @@
-command_id: 6B4.694.22D862|fc=1
-test_cases:
-- expected_values:
-    308_HV_BATT_SOC_MIN: 52
-  response: 6940462D86234

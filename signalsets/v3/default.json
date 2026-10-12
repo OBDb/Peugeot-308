@@ -1113,25 +1113,25 @@
   "signals": [
     {"id": "308_COMPUTER_LOCK", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Computer lock"}
   ]},
-{ "hdr": "6B4", "rax": "694", "fcm1": true, "cmd": {"22": "D804"}, "freq": 1,
+{ "hdr": "6B4", "rax": "694", "fcm1": true, "dbg": true, "cmd": {"22": "D804"}, "freq": 1,
   "signals": [
     {"id": "308_HV_BUS_V", "path": "Battery", "fmt": { "len": 16, "max": 500, "div": 10, "unit": "volts" }, "name": "High voltage bus voltage", "description": "Measured downstream of the main contactors. Reads 0 V when they are open, while 308_HV_BATT_V keeps reporting the pack's own terminal voltage."}
   ]},
-{ "hdr": "6B4", "rax": "694", "fcm1": true, "cmd": {"22": "D815"}, "freq": 1,
+{ "hdr": "6B4", "rax": "694", "fcm1": true, "cmd": {"22": "D815"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "308_HV_BATT_V", "path": "Battery", "fmt": { "len": 16, "max": 500, "div": 10, "unit": "volts" }, "name": "Traction battery voltage", "suggestedMetric": "tractionBatteryVoltage"}
   ]},
-{ "hdr": "6B4", "rax": "694", "fcm1": true, "cmd": {"22": "D862"}, "freq": 5,
+{ "hdr": "6B4", "rax": "694", "fcm1": true, "dbg": true, "cmd": {"22": "D862"}, "freq": 5,
   "signals": [
     {"id": "308_HV_BATT_SOC_MIN", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Traction battery minimum state of charge"}
   ]},
-{ "hdr": "6B4", "rax": "694", "fcm1": true, "cmd": {"22": "D863"}, "freq": 5,
+{ "hdr": "6B4", "rax": "694", "fcm1": true, "cmd": {"22": "D863"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "308_HV_BATT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Traction battery state of charge", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "6B4", "rax": "694", "fcm1": true, "dbg": true, "cmd": {"22": "D865"}, "freq": 5,
+{ "hdr": "6B4", "rax": "694", "fcm1": true, "cmd": {"22": "D865"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
-    {"id": "308_HV_BATT_SOC_HI_RES", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Traction battery state of charge, high resolution", "description": "Tracks the charge level but reads consistently about 1.5 points below 308_HV_BATT_SOC, so which of the two Diagbox reports as its headline value is not yet established. Left in debug until a second reference reading at a different charge level settles it."}
+    {"id": "308_HV_BATT_SOC_HI_RES", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Traction battery state of charge, high resolution", "description": "Tracks the charge level, 1-2 points below 308_HV_BATT_SOC."}
   ]}
 ]
 }

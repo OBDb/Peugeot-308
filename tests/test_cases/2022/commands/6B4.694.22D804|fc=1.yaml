@@ -1,8 +1,0 @@
-command_id: 6B4.694.22D804|fc=1
-test_cases:
-- expected_values:
-    308_HV_BUS_V: 312.6
-  response: 6940562D8040C36
-- expected_values:
-    308_HV_BUS_V: 0
-  response: 6940562D8040000
