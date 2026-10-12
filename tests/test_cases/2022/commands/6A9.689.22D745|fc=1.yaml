@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D745|fc=1
+test_cases:
+- expected_values:
+    308_NUM_ACTIVATIONS_B1: 301063
+  response: 6890762D74500049807

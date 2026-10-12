@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D61B|fc=1
+test_cases:
+- expected_values:
+    308_MEAS_CURRENT_CTRL: 0
+  response: 6890462D61B00

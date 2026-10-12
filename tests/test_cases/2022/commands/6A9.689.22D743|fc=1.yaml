@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D743|fc=1
+test_cases:
+- expected_values:
+    308_NUM_ACTIVATIONS_CLU_ELECTROMAGNETIC_VLV_C2: 106256
+  response: 6890762D74300019F10

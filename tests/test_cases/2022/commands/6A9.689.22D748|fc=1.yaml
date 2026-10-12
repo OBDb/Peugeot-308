@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D748|fc=1
+test_cases:
+- expected_values:
+    308_NUM_GEAR_ENGAGEMENTS_2: 135380
+  response: 6890762D748000210D4

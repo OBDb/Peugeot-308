@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D713|fc=1
+test_cases:
+- expected_values:
+    308_REVERSIBLE_GEN_V: 14.3125
+  response: 6880562D71300E5

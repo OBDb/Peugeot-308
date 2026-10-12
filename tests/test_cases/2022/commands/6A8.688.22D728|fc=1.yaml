@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D728|fc=1
+test_cases:
+- expected_values:
+    308_TQ_SUPPLIED_OR_TAKEN: 0
+  response: 6880562D7280000

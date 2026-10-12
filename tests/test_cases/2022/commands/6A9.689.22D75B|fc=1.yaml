@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D75B|fc=1
+test_cases:
+- expected_values:
+    308_NUM_ACTIVATIONS_GEAR_7: 85894
+  response: 6890762D75B00014F86

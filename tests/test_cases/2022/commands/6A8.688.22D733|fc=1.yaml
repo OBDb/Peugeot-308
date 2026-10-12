@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D733|fc=1
+test_cases:
+- expected_values:
+    308_IDENTIFIER_SUPPLIER: 1
+  response: 6880462D73301
