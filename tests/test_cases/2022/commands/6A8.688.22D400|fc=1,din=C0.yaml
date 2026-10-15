@@ -2,4 +2,19 @@ command_id: 6A8.688.22D400|fc=1,din=C0
 test_cases:
 - expected_values:
     308_RPM: 0
+  response: |-
+    22D4001
+    6880562D4000000
+- expected_values:
+    308_RPM: 911
+  response: |-
+    22D4001
+    6880562D400038F
+- expected_values:
+    308_RPM: 2506
+  response: |-
+    22D4001
+    6880562D40009CA
+- expected_values:
+    308_RPM: 0
   response: 6880562D4000000

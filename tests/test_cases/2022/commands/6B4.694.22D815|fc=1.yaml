@@ -1,8 +1,28 @@
 command_id: 6B4.694.22D815|fc=1
 test_cases:
 - expected_values:
-    308_HV_BATT_V: 312.5
-  response: 6940562D8150C35
+    308_HV_BATT_V: 303.2
+  response: |-
+    22D8151
+    6940562D8150BD8
+- expected_values:
+    308_HV_BATT_V: 320
+  response: |-
+    22D8151
+    6940562D8150C80
+- expected_values:
+    308_HV_BATT_V: 321.4
+  response: |-
+    22D8151
+    6940562D8150C8E
+- expected_values:
+    308_HV_BATT_V: 330.8
+  response: |-
+    22D8151
+    6940562D8150CEC
+- expected_values:
+    308_HV_BATT_V: 294.7
+  response: 6940562D8150B83
 - expected_values:
     308_HV_BATT_V: 331.8
   response: 6940562D8150CF6
