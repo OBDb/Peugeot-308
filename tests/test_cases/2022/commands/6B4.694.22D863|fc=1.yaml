@@ -11,8 +11,8 @@ test_cases:
     22D8631
     6940462D86347
 - expected_values:
-    308_HV_BATT_SOC: 54
-  response: 6940462D86336
+    308_HV_BATT_SOC: 45
+  response: 6940462D8632D
 - expected_values:
     308_HV_BATT_SOC: 83
   response: 6940462D86353

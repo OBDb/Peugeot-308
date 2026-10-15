@@ -17,5 +17,5 @@ test_cases:
     308_ENG_CTRL_COMPUTER_V: 12.74
   response: 6880562D42204FA
 - expected_values:
-    308_ENG_CTRL_COMPUTER_V: 14.12
-  response: 6880562D4220584
+    308_ENG_CTRL_COMPUTER_V: 14.08
+  response: 6880562D4220580

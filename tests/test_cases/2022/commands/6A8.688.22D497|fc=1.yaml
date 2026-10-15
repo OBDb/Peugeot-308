@@ -21,8 +21,8 @@ test_cases:
     22D4971
     6880762D49700002047
 - expected_values:
-    308_BAT_CURRENT: 9.10938
-  response: 6880762D49700002470
+    308_BAT_CURRENT: 8.70996
+  response: 6880762D497000022D7
 - expected_values:
     308_BAT_CURRENT: 9.48926
   response: 6880762D497000025F5
