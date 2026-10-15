@@ -1,0 +1,8 @@
+command_id: 752.652.22DBAD|fc=1
+test_cases:
+- expected_values:
+    308_BRAKE_SW: 1
+  response: 6520462DBAD01
+- expected_values:
+    308_BRAKE_SW: 0
+  response: 6520462DBAD00

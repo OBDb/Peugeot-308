@@ -1,0 +1,5 @@
+command_id: 6B5.695.22D40A|fc=1
+test_cases:
+- expected_values:
+    308_EPS_ASSIST_LIMITED: 1
+  response: 6950462D40A01

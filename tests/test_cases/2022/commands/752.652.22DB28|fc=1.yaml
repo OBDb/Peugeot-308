@@ -1,0 +1,5 @@
+command_id: 752.652.22DB28|fc=1
+test_cases:
+- expected_values:
+    308_CC_STEP: 3.0
+  response: 6520462DB281E

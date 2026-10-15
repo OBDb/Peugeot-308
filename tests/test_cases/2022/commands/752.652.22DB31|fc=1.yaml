@@ -1,0 +1,5 @@
+command_id: 752.652.22DB31|fc=1
+test_cases:
+- expected_values:
+    308_ACC_SELECTED: 1
+  response: 6520462DB3101

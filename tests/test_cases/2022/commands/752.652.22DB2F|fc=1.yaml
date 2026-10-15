@@ -1,0 +1,8 @@
+command_id: 752.652.22DB2F|fc=1
+test_cases:
+- expected_values:
+    308_CC_SETTING: 1
+  response: 6520462DB2F01
+- expected_values:
+    308_CC_SETTING: 0
+  response: 6520462DB2F00

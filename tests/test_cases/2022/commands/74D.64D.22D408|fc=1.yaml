@@ -1,0 +1,17 @@
+command_id: 74D.64D.22D408|fc=1
+test_cases:
+- expected_values:
+    308_SHIFTER_LEVER_POS: 'Centre'
+  response: 64D0462D40800
+- expected_values:
+    308_SHIFTER_LEVER_POS: 'Forward, first notch'
+  response: 64D0462D40820
+- expected_values:
+    308_SHIFTER_LEVER_POS: 'Forward, second notch'
+  response: 64D0462D40840
+- expected_values:
+    308_SHIFTER_LEVER_POS: 'Back, first notch'
+  response: 64D0462D40860
+- expected_values:
+    308_SHIFTER_LEVER_POS: 'Back, second notch'
+  response: 64D0462D40880

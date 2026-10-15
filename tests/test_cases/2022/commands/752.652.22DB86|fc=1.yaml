@@ -1,0 +1,8 @@
+command_id: 752.652.22DB86|fc=1
+test_cases:
+- expected_values:
+    308_BELT_RL: 'Unbuckled'
+  response: 6520462DB8601
+- expected_values:
+    308_BELT_RL: 'Buckled'
+  response: 6520462DB8602

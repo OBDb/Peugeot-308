@@ -1,0 +1,8 @@
+command_id: 752.652.22DB32|fc=1
+test_cases:
+- expected_values:
+    308_ACC_ACTIVE: 1
+  response: 6520462DB3201
+- expected_values:
+    308_ACC_ACTIVE: 0
+  response: 6520462DB3200

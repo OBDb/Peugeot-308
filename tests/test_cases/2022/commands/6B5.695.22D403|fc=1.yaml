@@ -1,0 +1,5 @@
+command_id: 6B5.695.22D403|fc=1
+test_cases:
+- expected_values:
+    308_VSS_EPS: 0
+  response: 6950562D4030000

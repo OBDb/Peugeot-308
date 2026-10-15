@@ -1,0 +1,8 @@
+command_id: 752.652.22DCBF|fc=1
+test_cases:
+- expected_values:
+    308_CC_REQUEST: 1
+  response: 6520462DCBF01
+- expected_values:
+    308_CC_REQUEST: 0
+  response: 6520462DCBF00

@@ -1,0 +1,8 @@
+command_id: 752.652.22DB22|fc=1
+test_cases:
+- expected_values:
+    308_SWC_OK: 1
+  response: 6520462DB2201
+- expected_values:
+    308_SWC_OK: 0
+  response: 6520462DB2200

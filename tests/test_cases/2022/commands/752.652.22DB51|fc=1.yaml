@@ -1,0 +1,8 @@
+command_id: 752.652.22DB51|fc=1
+test_cases:
+- expected_values:
+    308_BELT_DRIVER: 'Unbuckled'
+  response: 6520462DB5101
+- expected_values:
+    308_BELT_DRIVER: 'Buckled'
+  response: 6520462DB5102

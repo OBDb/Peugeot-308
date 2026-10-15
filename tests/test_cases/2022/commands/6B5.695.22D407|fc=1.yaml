@@ -1,0 +1,5 @@
+command_id: 6B5.695.22D407|fc=1
+test_cases:
+- expected_values:
+    308_EPS_ENGINE_STATE: 'Engine stopped'
+  response: 6950462D40704

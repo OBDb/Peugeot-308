@@ -1,0 +1,8 @@
+command_id: 752.652.22DCC0|fc=1
+test_cases:
+- expected_values:
+    308_CC_SETPOINT: 167
+  response: 6520462DCC0A7
+- expected_values:
+    308_CC_SETPOINT: 27
+  response: 6520462DCC01B

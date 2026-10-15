@@ -1,0 +1,11 @@
+command_id: 752.652.22DBF5|fc=1
+test_cases:
+- expected_values:
+    308_LIGHT_SWITCH: 'Auto'
+  response: 6520462DBF501
+- expected_values:
+    308_LIGHT_SWITCH: 'Position lights'
+  response: 6520462DBF502
+- expected_values:
+    308_LIGHT_SWITCH: 'Dipped beam'
+  response: 6520462DBF503

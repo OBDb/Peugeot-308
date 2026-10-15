@@ -1,0 +1,5 @@
+command_id: 74D.64D.220106|fc=1
+test_cases:
+- expected_values:
+    308_SHIFTER_P_PRESSES: 2523
+  response: 64D07620106000009DB

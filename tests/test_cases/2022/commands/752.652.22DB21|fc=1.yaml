@@ -1,0 +1,8 @@
+command_id: 752.652.22DB21|fc=1
+test_cases:
+- expected_values:
+    308_CC_SW_MODE: 1
+  response: 6520462DB2101
+- expected_values:
+    308_CC_SW_MODE: 0
+  response: 6520462DB2100

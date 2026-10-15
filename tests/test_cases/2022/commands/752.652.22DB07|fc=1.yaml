@@ -1,0 +1,8 @@
+command_id: 752.652.22DB07|fc=1
+test_cases:
+- expected_values:
+    308_HAZARD_LED: 1
+  response: 6520562DB070100
+- expected_values:
+    308_HAZARD_LED: 0
+  response: 6520562DB070000

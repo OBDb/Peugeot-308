@@ -1,0 +1,5 @@
+command_id: 74D.64D.220108|fc=1
+test_cases:
+- expected_values:
+    308_SHIFTER_LEVER_MOVES: 25321
+  response: 64D07620108000062E9
