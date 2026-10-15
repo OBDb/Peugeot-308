@@ -24,6 +24,9 @@ test_cases:
     308_HV_BATT_V: 294.7
   response: 6940562D8150B83
 - expected_values:
+    308_HV_BATT_V: 307.8
+  response: 6940562D8150C06
+- expected_values:
     308_HV_BATT_V: 331.8
   response: 6940562D8150CF6
 - expected_values:
