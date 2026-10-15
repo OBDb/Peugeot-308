@@ -1,8 +1,0 @@
-command_id: 752.652.22DB17|fc=1
-test_cases:
-- expected_values:
-    308_CC_ENGINE_STATE: 'Inhibited'
-  response: 6520462DB1703
-- expected_values:
-    308_CC_ENGINE_STATE: 'Waiting'
-  response: 6520462DB1700

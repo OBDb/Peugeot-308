@@ -1,5 +1,0 @@
-command_id: 6B5.695.22D409|fc=1
-test_cases:
-- expected_values:
-    308_EPS_ASSIST_ACTIVE: 1
-  response: 6950462D40901

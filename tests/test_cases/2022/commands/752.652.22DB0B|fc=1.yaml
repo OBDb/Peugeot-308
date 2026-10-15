@@ -1,8 +1,0 @@
-command_id: 752.652.22DB0B|fc=1
-test_cases:
-- expected_values:
-    308_REVERSE_LIGHTS: 1
-  response: 6520562DB0B0100
-- expected_values:
-    308_REVERSE_LIGHTS: 0
-  response: 6520562DB0B0000

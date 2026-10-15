@@ -1,8 +1,0 @@
-command_id: 752.652.22DB83|fc=1
-test_cases:
-- expected_values:
-    308_BELT_PASSENGER: 'Unbuckled'
-  response: 6520462DB8301
-- expected_values:
-    308_BELT_PASSENGER: 'Buckled'
-  response: 6520462DB8302

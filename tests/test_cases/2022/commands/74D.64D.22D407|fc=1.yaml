@@ -1,8 +1,0 @@
-command_id: 74D.64D.22D407|fc=1
-test_cases:
-- expected_values:
-    308_SHIFTER_MB_BTN: 1
-  response: 64D0462D40780
-- expected_values:
-    308_SHIFTER_MB_BTN: 0
-  response: 64D0462D40700

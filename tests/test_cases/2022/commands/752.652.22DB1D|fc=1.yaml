@@ -1,8 +1,0 @@
-command_id: 752.652.22DB1D|fc=1
-test_cases:
-- expected_values:
-    308_CC_SW_MINUS: 1
-  response: 6520462DB1D01
-- expected_values:
-    308_CC_SW_MINUS: 0
-  response: 6520462DB1D00

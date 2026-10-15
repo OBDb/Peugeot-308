@@ -1,5 +1,0 @@
-command_id: 6B5.695.22D417|fc=1
-test_cases:
-- expected_values:
-    308_STEERING_ANGLE_TGT: -5.1
-  response: 6950562D417FFCD

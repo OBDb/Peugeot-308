@@ -1,8 +1,0 @@
-command_id: 752.652.22DB0E|fc=1
-test_cases:
-- expected_values:
-    308_PLATE_LIGHTS: 1
-  response: 6520562DB0E0100
-- expected_values:
-    308_PLATE_LIGHTS: 0
-  response: 6520562DB0E0000

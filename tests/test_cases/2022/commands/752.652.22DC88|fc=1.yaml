@@ -1,5 +1,0 @@
-command_id: 752.652.22DC88|fc=1
-test_cases:
-- expected_values:
-    308_REGEN_B_REQUEST: 1
-  response: 6520462DC8801

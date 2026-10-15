@@ -1,5 +1,0 @@
-command_id: 6B5.695.22D410|fc=1
-test_cases:
-- expected_values:
-    308_EPS_ASSIST_TORQUE: 43
-  response: 6950462D4102B

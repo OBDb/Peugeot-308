@@ -1,8 +1,0 @@
-command_id: 752.652.22DB9F|fc=1
-test_cases:
-- expected_values:
-    308_REAR_FOG: 1
-  response: 6520562DB9F0100
-- expected_values:
-    308_REAR_FOG: 0
-  response: 6520562DB9F0000

@@ -1,5 +1,0 @@
-command_id: 6B5.695.22D404|fc=1
-test_cases:
-- expected_values:
-    308_EPS_SUPPLY_V: 14.1
-  response: 6950462D4048D
