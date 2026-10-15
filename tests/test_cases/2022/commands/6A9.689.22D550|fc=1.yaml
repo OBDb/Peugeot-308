@@ -1,8 +1,23 @@
 command_id: 6A9.689.22D550|fc=1
 test_cases:
 - expected_values:
+    308_AUTOMATIC_ATF_T: 38
+  response: |-
+    22D5501
+    6890462D5504E
+- expected_values:
+    308_AUTOMATIC_ATF_T: 39
+  response: |-
+    22D5501
+    6890462D5504F
+- expected_values:
+    308_AUTOMATIC_ATF_T: 41
+  response: |-
+    22D5501
+    6890462D55051
+- expected_values:
     308_AUTOMATIC_ATF_T: 25
   response: 6890462D55041
 - expected_values:
-    308_AUTOMATIC_ATF_T: 38
-  response: 6890462D5504E
+    308_AUTOMATIC_ATF_T: 71
+  response: 6890462D5506F

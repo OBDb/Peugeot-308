@@ -1,17 +1,21 @@
 command_id: 6A8.688.22D422|fc=1
 test_cases:
 - expected_values:
+    308_ENG_CTRL_COMPUTER_V: 14.1
+  response: |-
+    22D4221
+    6880562D4220582
+- expected_values:
+    308_ENG_CTRL_COMPUTER_V: 14.2
+  response: |-
+    22D4221
+    6880562D422058C
+- expected_values:
     308_ENG_CTRL_COMPUTER_V: 12.32
   response: 6880562D42204D0
 - expected_values:
-    308_ENG_CTRL_COMPUTER_V: 12.34
-  response: 6880562D42204D2
+    308_ENG_CTRL_COMPUTER_V: 12.74
+  response: 6880562D42204FA
 - expected_values:
     308_ENG_CTRL_COMPUTER_V: 14.12
   response: 6880562D4220584
-- expected_values:
-    308_ENG_CTRL_COMPUTER_V: 14.14
-  response: 6880562D4220586
-- expected_values:
-    308_ENG_CTRL_COMPUTER_V: 14.18
-  response: 6880562D422058A
