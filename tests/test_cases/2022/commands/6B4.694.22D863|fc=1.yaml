@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     308_HV_BATT_SOC: 54
   response: 6940462D86336
+- expected_values:
+    308_HV_BATT_SOC: 78
+  response: 6940462D8634E
+- expected_values:
+    308_HV_BATT_SOC: 79
+  response: 6940462D8634F
+- expected_values:
+    308_HV_BATT_SOC: 80
+  response: 6940462D86350
+- expected_values:
+    308_HV_BATT_SOC: 81
+  response: 6940462D86351
+- expected_values:
+    308_HV_BATT_SOC: 82
+  response: 6940462D86352
+- expected_values:
+    308_HV_BATT_SOC: 83
+  response: 6940462D86353

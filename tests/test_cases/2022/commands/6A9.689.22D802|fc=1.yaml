@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     308_ODO_6A9: 114088
   response: 6890662D80201BDA8
+- expected_values:
+    308_ODO_6A9: 114091
+  response: 6890662D80201BDAB
+- expected_values:
+    308_ODO_6A9: 114092
+  response: 6890662D80201BDAC
+- expected_values:
+    308_ODO_6A9: 114093
+  response: 6890662D80201BDAD
+- expected_values:
+    308_ODO_6A9: 114094
+  response: 6890662D80201BDAE

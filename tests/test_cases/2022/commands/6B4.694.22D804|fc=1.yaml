@@ -1,0 +1,32 @@
+command_id: 6B4.694.22D804|fc=1
+test_cases:
+- expected_values:
+    308_HV_BUS_V: 324.1
+  response: 6940562D8040CA9
+- expected_values:
+    308_HV_BUS_V: 324.6
+  response: 6940562D8040CAE
+- expected_values:
+    308_HV_BUS_V: 325.2
+  response: 6940562D8040CB4
+- expected_values:
+    308_HV_BUS_V: 329
+  response: 6940562D8040CDA
+- expected_values:
+    308_HV_BUS_V: 330.2
+  response: 6940562D8040CE6
+- expected_values:
+    308_HV_BUS_V: 330.6
+  response: 6940562D8040CEA
+- expected_values:
+    308_HV_BUS_V: 331
+  response: 6940562D8040CEE
+- expected_values:
+    308_HV_BUS_V: 331.2
+  response: 6940562D8040CF0
+- expected_values:
+    308_HV_BUS_V: 333.2
+  response: 6940562D8040D04
+- expected_values:
+    308_HV_BUS_V: 334.6
+  response: 6940562D8040D12
