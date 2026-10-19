@@ -4,5 +4,11 @@ test_cases:
     308_GEAR_SELECTED: P
   response: 6520462DC9600
 - expected_values:
+    308_GEAR_SELECTED: R
+  response: 6520462DC9601
+- expected_values:
+    308_GEAR_SELECTED: N
+  response: 6520462DC9602
+- expected_values:
     308_GEAR_SELECTED: D
   response: 6520462DC9603

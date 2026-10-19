@@ -1,5 +1,8 @@
 command_id: 752.652.22DC24|fc=1,f=2022-
 test_cases:
 - expected_values:
+    308_ACC_TARGET_DIST: 2.5
+  response: 6520562DC240006
+- expected_values:
     308_ACC_TARGET_DIST: 256.25
   response: 6520562DC2403FE

@@ -3,6 +3,11 @@ test_cases:
 - expected_values:
     308_LOCK_BOOT: Locked
     308_LOCK_TAILGATE: Locked
+    308_LOCK_VEHICLE: Locked
+  response: 6520662DAFF000101
+- expected_values:
+    308_LOCK_BOOT: Locked
+    308_LOCK_TAILGATE: Locked
     308_LOCK_VEHICLE: Unlocked
   response: 6520662DAFF000301
 - expected_values:

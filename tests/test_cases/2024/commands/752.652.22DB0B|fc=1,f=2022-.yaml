@@ -5,4 +5,7 @@ test_cases:
   response: 6520562DB0B0000
 - expected_values:
     308_REVERSE_LIGHTS: 0
-  response: 6520562DB0B0003
+  response: 6520562DB0B00FE
+- expected_values:
+    308_REVERSE_LIGHTS: 1
+  response: 6520562DB0B01FE

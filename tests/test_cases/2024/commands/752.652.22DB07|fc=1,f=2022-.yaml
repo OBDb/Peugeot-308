@@ -5,4 +5,16 @@ test_cases:
   response: 6520562DB070100
 - expected_values:
     308_HAZARD_LED: 1
+  response: 6520562DB070101
+- expected_values:
+    308_HAZARD_LED: 1
   response: 6520562DB070103
+- expected_values:
+    308_HAZARD_LED: 1
+  response: 6520562DB070106
+- expected_values:
+    308_HAZARD_LED: 1
+  response: 6520562DB070109
+- expected_values:
+    308_HAZARD_LED: 1
+  response: 6520562DB0701FE

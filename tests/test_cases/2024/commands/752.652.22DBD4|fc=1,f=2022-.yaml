@@ -4,5 +4,8 @@ test_cases:
     308_LOCK_LED: 0
   response: 6520562DBD40000
 - expected_values:
+    308_LOCK_LED: 1
+  response: 6520562DBD401F4
+- expected_values:
     308_LOCK_LED: 0
-  response: 6520562DBD40003
+  response: 6520562DBD40200

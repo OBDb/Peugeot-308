@@ -1,8 +1,8 @@
 command_id: 6B5.695.22D40F|fc=1,f=2022-
 test_cases:
 - expected_values:
-    308_STEERING_TORQUE: -1.4
-  response: 6950462D40FF2
+    308_STEERING_TORQUE: 0
+  response: 6950462D40F00
 - expected_values:
     308_STEERING_TORQUE: -0.1
   response: 6950462D40FFF

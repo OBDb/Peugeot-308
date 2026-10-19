@@ -1,8 +1,11 @@
 command_id: 6B5.695.22D417|fc=1,f=2022-
 test_cases:
 - expected_values:
-    308_STEERING_ANGLE_TGT: -40
-  response: 6950562D417FE70
+    308_STEERING_ANGLE_TGT: 0
+  response: 6950562D4170000
 - expected_values:
-    308_STEERING_ANGLE_TGT: -8.9
-  response: 6950562D417FFA7
+    308_STEERING_ANGLE_TGT: -24.3
+  response: 6950562D417FF0D
+- expected_values:
+    308_STEERING_ANGLE_TGT: -0.2
+  response: 6950562D417FFFE

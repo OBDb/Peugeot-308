@@ -2,7 +2,10 @@ command_id: 752.652.22DB0C|fc=1,f=2022-
 test_cases:
 - expected_values:
     308_BRAKE_LIGHTS: 0
+  response: 6520562DB0C0000
+- expected_values:
+    308_BRAKE_LIGHTS: 0
   response: 6520562DB0C00FE
 - expected_values:
     308_BRAKE_LIGHTS: 1
-  response: 6520562DB0C0103
+  response: 6520562DB0C0100
