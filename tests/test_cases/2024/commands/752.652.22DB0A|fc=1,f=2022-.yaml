@@ -1,0 +1,8 @@
+command_id: 752.652.22DB0A|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_HORN: 0
+  response: 6520562DB0A0000
+- expected_values:
+    308_HORN: 0
+  response: 6520562DB0A00FE

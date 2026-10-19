@@ -1,0 +1,13 @@
+command_id: 752.652.22DAFB|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_BONNET: 0
+    308_DOOR_DRIVER: 0
+    308_DOOR_PASSENGER: 0
+    308_DOOR_RL: 0
+    308_DOOR_RR: 0
+    308_REAR_WINDOW: 0
+    308_TAILGATE: 0
+  response: |-
+    652100A62DAFB000000
+    6522100000000

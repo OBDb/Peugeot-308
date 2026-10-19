@@ -1,0 +1,5 @@
+command_id: 752.652.22DC23|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_ACC_RADAR_STATE: Unavailable
+  response: 6520462DC2300

@@ -1,0 +1,5 @@
+command_id: 6B5.695.22D408|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_EPS_IGNITION: 1
+  response: 6950462D40801

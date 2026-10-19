@@ -1,0 +1,5 @@
+command_id: 752.652.22DCC0|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_CC_SETPOINT: 254
+  response: 6520462DCC0FF

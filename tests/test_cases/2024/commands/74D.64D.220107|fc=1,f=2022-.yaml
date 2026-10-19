@@ -1,0 +1,5 @@
+command_id: 74D.64D.220107|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_SHIFTER_MB_PRESSES: 217
+  response: 64D07620107000000D9

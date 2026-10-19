@@ -1,0 +1,5 @@
+command_id: 752.652.22DAE0|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_DOOR_DRIVER_EST: 0
+  response: 6520562DAE00000

@@ -1,0 +1,5 @@
+command_id: 752.652.22DB24|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_CC_MODE: None
+  response: 6520462DB2400

@@ -1,0 +1,8 @@
+command_id: 752.652.22DB2E|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_VSS_BSI: 0
+  response: 6520562DB2E0000
+- expected_values:
+    308_VSS_BSI: 5
+  response: 6520562DB2E01F4

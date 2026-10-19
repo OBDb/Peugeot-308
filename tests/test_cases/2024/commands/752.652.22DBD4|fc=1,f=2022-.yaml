@@ -1,0 +1,8 @@
+command_id: 752.652.22DBD4|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_LOCK_LED: 0
+  response: 6520562DBD40000
+- expected_values:
+    308_LOCK_LED: 0
+  response: 6520562DBD40003

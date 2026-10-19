@@ -1,0 +1,8 @@
+command_id: 752.652.22DC3F|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_BRAKE_SW_2: 0
+  response: 6520462DC3F00
+- expected_values:
+    308_BRAKE_SW_2: 1
+  response: 6520462DC3F01

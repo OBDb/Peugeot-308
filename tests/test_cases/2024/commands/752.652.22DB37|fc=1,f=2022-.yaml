@@ -1,0 +1,5 @@
+command_id: 752.652.22DB37|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_ACC_DISPLAY_STATE: Inhibited
+  response: 6520462DB3705

@@ -1,0 +1,8 @@
+command_id: 6B5.695.22D40D|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_STEERING_ANGLE: -34
+  response: 6950562D40DFEAC
+- expected_values:
+    308_STEERING_ANGLE: -5.9
+  response: 6950562D40DFFC5
