@@ -1,0 +1,5 @@
+command_id: 74D.64D.22D408|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_SHIFTER_LEVER_POS: Centre
+  response: 64D0462D40800

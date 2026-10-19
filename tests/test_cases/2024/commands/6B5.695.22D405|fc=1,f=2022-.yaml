@@ -1,0 +1,8 @@
+command_id: 6B5.695.22D405|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_EPS_T: 21
+  response: 6950462D4053D
+- expected_values:
+    308_EPS_T: 22
+  response: 6950462D4053E

@@ -1,0 +1,8 @@
+command_id: 752.652.22DB09|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_TURN_RIGHT: 0
+  response: 6520562DB090003
+- expected_values:
+    308_TURN_RIGHT: 0
+  response: 6520562DB0900F4

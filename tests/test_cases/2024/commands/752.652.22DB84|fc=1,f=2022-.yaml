@@ -1,0 +1,5 @@
+command_id: 752.652.22DB84|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_BELT_RR: Unbuckled
+  response: 6520462DB8401

@@ -1,0 +1,5 @@
+command_id: 752.652.22DBF8|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_DOOR_OPEN_ALERT: 0
+  response: 6520462DBF800

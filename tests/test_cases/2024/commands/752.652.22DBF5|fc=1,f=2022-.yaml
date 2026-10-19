@@ -1,0 +1,5 @@
+command_id: 752.652.22DBF5|fc=1,f=2022-
+test_cases:
+- expected_values:
+    308_LIGHT_SWITCH: Auto
+  response: 6520462DBF501
