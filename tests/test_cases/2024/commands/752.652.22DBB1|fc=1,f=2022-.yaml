@@ -1,6 +1,18 @@
 command_id: 752.652.22DBB1|fc=1,f=2022-
 test_cases:
 - expected_values:
+    308_LOW_BEAM: 0
+  response: 6520562DBB10000
+- expected_values:
+    308_LOW_BEAM: 0
+  response: 6520562DBB10001
+- expected_values:
+    308_LOW_BEAM: 0
+  response: 6520562DBB10003
+- expected_values:
+    308_LOW_BEAM: 0
+  response: 6520562DBB1002C
+- expected_values:
     308_LOW_BEAM: 1
   response: 6520562DBB10100
 - expected_values:

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     308_EPS_ASSIST_ACTIVE: 1
   response: 6950462D40901
+- expected_values:
+    308_EPS_ASSIST_ACTIVE: 0
+  response: 6950462D40904

@@ -2,7 +2,28 @@ command_id: 752.652.22DB09|fc=1,f=2022-
 test_cases:
 - expected_values:
     308_TURN_RIGHT: 0
+  response: 6520562DB090000
+- expected_values:
+    308_TURN_RIGHT: 0
+  response: 6520562DB090001
+- expected_values:
+    308_TURN_RIGHT: 0
   response: 6520562DB090003
 - expected_values:
     308_TURN_RIGHT: 0
+  response: 6520562DB09002C
+- expected_values:
+    308_TURN_RIGHT: 0
+  response: 6520562DB090084
+- expected_values:
+    308_TURN_RIGHT: 0
+  response: 6520562DB0900DC
+- expected_values:
+    308_TURN_RIGHT: 0
+  response: 6520562DB0900F0
+- expected_values:
+    308_TURN_RIGHT: 0
   response: 6520562DB0900F4
+- expected_values:
+    308_TURN_RIGHT: 0
+  response: 6520562DB0900FC

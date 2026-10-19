@@ -4,5 +4,5 @@ test_cases:
     308_EPS_T: 21
   response: 6950462D4053D
 - expected_values:
-    308_EPS_T: 22
-  response: 6950462D4053E
+    308_EPS_T: 51
+  response: 6950462D4055B

@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     308_SHIFTER_LEVER_MOVES: 21715
   response: 64D07620108000054D3
+- expected_values:
+    308_SHIFTER_LEVER_MOVES: 21717
+  response: 64D07620108000054D5
+- expected_values:
+    308_SHIFTER_LEVER_MOVES: 21719
+  response: 64D07620108000054D7
+- expected_values:
+    308_SHIFTER_LEVER_MOVES: 21721
+  response: 64D07620108000054D9
+- expected_values:
+    308_SHIFTER_LEVER_MOVES: 21722
+  response: 64D07620108000054DA
+- expected_values:
+    308_SHIFTER_LEVER_MOVES: 21726
+  response: 64D07620108000054DE
+- expected_values:
+    308_SHIFTER_LEVER_MOVES: 21729
+  response: 64D07620108000054E1
+- expected_values:
+    308_SHIFTER_LEVER_MOVES: 21731
+  response: 64D07620108000054E3

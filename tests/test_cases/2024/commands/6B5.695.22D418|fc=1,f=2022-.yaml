@@ -4,5 +4,5 @@ test_cases:
     308_STEERING_RATE: 0
   response: 6950462D41800
 - expected_values:
-    308_STEERING_RATE: 1
-  response: 6950462D41801
+    308_STEERING_RATE: 71
+  response: 6950462D41847

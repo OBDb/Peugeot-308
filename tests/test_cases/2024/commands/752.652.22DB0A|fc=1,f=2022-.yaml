@@ -5,4 +5,25 @@ test_cases:
   response: 6520562DB0A0000
 - expected_values:
     308_HORN: 0
+  response: 6520562DB0A0001
+- expected_values:
+    308_HORN: 0
+  response: 6520562DB0A0003
+- expected_values:
+    308_HORN: 0
+  response: 6520562DB0A0009
+- expected_values:
+    308_HORN: 0
+  response: 6520562DB0A000B
+- expected_values:
+    308_HORN: 0
+  response: 6520562DB0A002C
+- expected_values:
+    308_HORN: 0
+  response: 6520562DB0A002F
+- expected_values:
+    308_HORN: 0
+  response: 6520562DB0A003F
+- expected_values:
+    308_HORN: 0
   response: 6520562DB0A00FE

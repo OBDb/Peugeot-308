@@ -4,5 +4,8 @@ test_cases:
     308_VSS_BSI: 0
   response: 6520562DB2E0000
 - expected_values:
-    308_VSS_BSI: 5
-  response: 6520562DB2E01F4
+    308_VSS_BSI: 23
+  response: 6520562DB2E08FC
+- expected_values:
+    308_VSS_BSI: 105
+  response: 6520562DB2E2904
