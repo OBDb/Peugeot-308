@@ -1472,7 +1472,7 @@
   ]},
 { "hdr": "752", "rax": "652", "fcm1": true, "cmd": {"22": "DC96"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
-    {"id": "308_GEAR_SELECTED", "path": "Transmission", "name": "Selected gear", "fmt": {"len": 8, "map": {
+    {"id": "308_GEAR_SELECTED", "path": "Transmission", "name": "Selected gear", "suggestedMetric": "gearSelector", "fmt": {"len": 8, "map": {
           "0": { "description": "P", "value": "P" },
           "1": { "description": "R", "value": "R" },
           "2": { "description": "N", "value": "N" },
