@@ -4,5 +4,11 @@ test_cases:
     308_ACC_TARGET_DIST: 2.5
   response: 6520562DC240006
 - expected_values:
-    308_ACC_TARGET_DIST: 256.25
+    308_ACC_TARGET_DIST: 63.5
+  response: 6520562DC2400FA
+- expected_values:
+    308_ACC_TARGET_DIST: 68.5
+  response: 6520562DC24010E
+- expected_values:
+    308_ACC_TARGET_DIST: null
   response: 6520562DC2403FE
