@@ -1296,7 +1296,7 @@
   ]},
 { "hdr": "752", "rax": "652", "fcm1": true, "cmd": {"22": "DB1B"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
-    {"id": "308_ACC_TIME_GAP", "path": "Cruise control", "fmt": { "len": 8, "max": 6.1, "div": 10, "nullmax": 6.2, "unit": "seconds" }, "name": "Adaptive cruise time gap", "description": "0x3E means no setpoint (speed limiter selected)."}
+    {"id": "308_ACC_TIME_GAP", "path": "Cruise control", "fmt": { "len": 8, "max": 6.2, "div": 10, "nullmax": 6.2, "unit": "seconds" }, "name": "Adaptive cruise time gap", "description": "0x3E means no setpoint (speed limiter selected)."}
   ]},
 { "hdr": "752", "rax": "652", "fcm1": true, "cmd": {"22": "DB1D"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
@@ -1349,7 +1349,7 @@
   ]},
 { "hdr": "752", "rax": "652", "fcm1": true, "cmd": {"22": "DB34"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
-    {"id": "308_ACC_SPEED", "path": "Cruise control", "fmt": { "len": 8, "max": 254, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Adaptive cruise regulation speed"}
+    {"id": "308_ACC_SPEED", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Adaptive cruise regulation speed"}
   ]},
 { "hdr": "752", "rax": "652", "fcm1": true, "cmd": {"22": "DB37"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
@@ -1460,7 +1460,7 @@
   ]},
 { "hdr": "752", "rax": "652", "fcm1": true, "cmd": {"22": "DC24"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "years": [2023], "from": 2025 },
   "signals": [
-    {"id": "308_ACC_TARGET_DIST", "path": "Cruise control", "fmt": { "len": 16, "max": 256.25, "div": 4, "add": 1, "nullmax": 256.5, "unit": "meters" }, "name": "Distance to the vehicle ahead", "description": "Encoding assumed from a single point: 0x03FE read as 256.5 m with no target."}
+    {"id": "308_ACC_TARGET_DIST", "path": "Cruise control", "fmt": { "len": 16, "max": 256.5, "div": 4, "add": 1, "nullmax": 256.5, "unit": "meters" }, "name": "Distance to the vehicle ahead", "description": "Encoding assumed from a single point: 0x03FE read as 256.5 m with no target."}
   ]},
 { "hdr": "752", "rax": "652", "fcm1": true, "cmd": {"22": "DC3F"}, "freq": 0.5, "filter": { "from": 2022 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
@@ -1490,7 +1490,7 @@
   ]},
 { "hdr": "752", "rax": "652", "fcm1": true, "cmd": {"22": "DCC0"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
-    {"id": "308_CC_SETPOINT", "path": "Cruise control", "fmt": { "len": 8, "max": 254, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Speed control setpoint"}
+    {"id": "308_CC_SETPOINT", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Speed control setpoint"}
   ]}
 ]
 }
